@@ -1,98 +1,50 @@
 [
-    {
-        "id": 1,
-        "title": "Nueva Campaña de Reforestación en el Amazonas",
-        "excerpt": "Iniciamos un ambicioso proyecto para plantar 10,000 árboles nativos en zonas deforestadas del Amazonas, con la participación de comunidades locales.",
-        "content": "<p>Nos complace anunciar el lanzamiento de nuestra nueva campaña de reforestación en el Amazonas, una iniciativa que busca restaurar 500 hectáreas de bosque tropical que han sido afectadas por la deforestación.</p><p>Este proyecto, que se desarrollará durante los próximos 18 meses, incluye:</p><ul><li>Plantación de 10,000 árboles nativos de especies como cecropia, guarumo y yarumo</li><li>Capacitación a 50 familias locales en técnicas de silvicultura sostenible</li><li>Establecimiento de viveros comunitarios para garantizar la continuidad del proyecto</li><li>Monitoreo satelital del crecimiento y supervivencia de los árboles plantados</li></ul><p>La campaña cuenta con el apoyo de organizaciones internacionales y ha sido diseñada en colaboración con líderes indígenas y expertos en conservación ambiental.</p><p>Los beneficios esperados incluyen la captura de aproximadamente 2,500 toneladas de CO₂, la protección de la biodiversidad local y la generación de ingresos sostenibles para las comunidades participantes.</p>",
-        "category": "medio-ambiente",
-        "date": "2024-01-15",
-        "author": "María González",
-        "image": "./images/novedades/reforestacion-amazonas.jpg",
-        "featured": true,
-        "tags": ["reforestación", "amazonas", "sostenibilidad", "comunidades", "biodiversidad"]
-    },
-    {
-        "id": 2,
-        "title": "Programa de Becas Educativas Alcanza los 500 Beneficiarios",
-        "excerpt": "Celebramos un hito importante: nuestro programa de becas ha beneficiado a 500 jóvenes de comunidades vulnerables en toda América Latina.",
-        "content": "<p>Con gran orgullo anunciamos que nuestro Programa de Becas Educativas CLADES ha alcanzado la cifra de 500 beneficiarios desde su inicio en 2020.</p><p>Este programa transformador ha logrado:</p><ul><li>Otorgar becas completas a 300 estudiantes de educación secundaria</li><li>Financiar estudios universitarios para 150 jóvenes talentos</li><li>Proporcionar becas de posgrado a 50 profesionales comprometidos con el desarrollo social</li><li>Mantener una tasa de graduación del 95% entre nuestros becarios</li></ul><p>Los beneficiarios provienen de 12 países de América Latina, con especial énfasis en comunidades rurales e indígenas donde el acceso a la educación de calidad es limitado.</p><p>El programa no solo cubre los costos educativos, sino que también incluye mentorías, talleres de liderazgo y oportunidades de networking que preparan a nuestros becarios para convertirse en agentes de cambio en sus comunidades.</p><p>Para 2024, esperamos ampliar el programa para alcanzar 100 nuevos beneficiarios, con un enfoque particular en carreras STEM y emprendimiento social.</p>",
-        "category": "educacion",
-        "date": "2024-01-10",
-        "author": "Carlos Mendoza",
-        "image": "./images/novedades/becas-educativas.jpg",
-        "featured": false,
-        "tags": ["educación", "becas", "juventud", "américa latina", "desarrollo"]
-    },
-    {
-        "id": 3,
-        "title": "Alianza Estratégica con UNICEF para Protección Infantil",
-        "excerpt": "Firmamos un acuerdo de colaboración con UNICEF para desarrollar programas de protección y desarrollo integral de la infancia.",
-        "content": "<p>CLADES y UNICEF han firmado un acuerdo de colaboración estratégica para desarrollar programas integrales de protección infantil en América Latina y el Caribe.</p><p>Esta alianza histórica permitirá:</p><ul><li>Implementar programas de protección contra la violencia infantil en 8 países</li><li>Desarrollar centros de atención integral para niños en situación de vulnerabilidad</li><li>Capacitar a 1,000 profesionales en derechos de la infancia</li><li>Crear una red regional de organizaciones dedicadas a la protección infantil</li></ul><p>El acuerdo, con una duración de 5 años, movilizará recursos por más de $2 millones de dólares y beneficiará directamente a más de 10,000 niños y niñas.</p><p>\"Esta alianza representa un paso fundamental hacia la construcción de sociedades más justas y protectoras para nuestros niños\", declaró la Directora Ejecutiva de CLADES durante la ceremonia de firma.</p><p>Los programas se enfocarán especialmente en prevención de violencia, acceso a educación de calidad, nutrición y salud mental infantil.</p>",
-        "category": "alianzas",
-        "date": "2024-01-05",
-        "author": "Ana Rodríguez",
-        "image": "./images/novedades/alianza-unicef.jpg",
-        "featured": true,
-        "tags": ["alianza", "UNICEF", "infancia", "protección", "desarrollo integral"]
-    },
-    {
-        "id": 4,
-        "title": "Taller de Emprendimiento Social en Guatemala",
-        "excerpt": "Realizamos un exitoso taller de emprendimiento social que capacitó a 150 líderes comunitarios en Guatemala.",
-        "content": "<p>Durante tres días intensivos, CLADES llevó a cabo un innovador taller de emprendimiento social en Ciudad de Guatemala, capacitando a 150 líderes comunitarios de todo el país.</p><p>El taller \"Emprendimiento con Propósito\" incluyó:</p><ul><li>Metodologías de identificación de problemas sociales</li><li>Diseño de modelos de negocio sostenibles</li><li>Técnicas de fundraising y gestión financiera</li><li>Herramientas digitales para el impacto social</li><li>Sesiones de mentorías personalizadas</li></ul><p>Los participantes, provenientes de 22 departamentos de Guatemala, presentaron 45 propuestas de emprendimientos sociales al final del taller.</p><p>Las iniciativas más prometedoras recibirán seguimiento y apoyo técnico durante los próximos 6 meses, con la posibilidad de acceder a fondos semilla de hasta $5,000 para implementar sus proyectos.</p><p>\"El potencial emprendedor que vimos en Guatemala es extraordinario. Estos líderes tienen la visión y la pasión necesarias para transformar sus comunidades\", comentó el facilitador principal del taller.</p>",
-        "category": "capacitacion",
-        "date": "2023-12-28",
-        "author": "Luis Hernández",
-        "image": "./images/novedades/taller-guatemala.jpg",
-        "featured": false,
-        "tags": ["emprendimiento", "Guatemala", "capacitación", "liderazgo", "innovación social"]
-    },
-    {
-        "id": 5,
-        "title": "Campaña de Agua Potable Beneficia a 2,000 Familias",
-        "excerpt": "Nuestra campaña de acceso a agua potable ha logrado llevar agua limpia a 2,000 familias en zonas rurales de Honduras.",
-        "content": "<p>La campaña \"Agua para Todos\" ha culminado exitosamente tras 8 meses de trabajo intensivo en las zonas rurales más remotas de Honduras.</p><p>Los logros de la campaña incluyen:</p><ul><li>Construcción de 15 sistemas de captación y purificación de agua</li><li>Instalación de 200 filtros domiciliarios de bajo costo</li><li>Capacitación de 80 técnicos locales en mantenimiento de sistemas hídricos</li><li>Formación de comités comunitarios de gestión del agua</li><li>Implementación de programas de educación en higiene y saneamiento</li></ul><p>El proyecto ha beneficiado directamente a 2,000 familias (aproximadamente 8,000 personas) en 25 comunidades rurales de los departamentos de Lempira, Intibucá y La Paz.</p><p>La sustentabilidad del proyecto está garantizada a través de la formación de comités locales y acuerdos con autoridades municipales para el mantenimiento a largo plazo de la infraestructura.</p><p>Los indicadores de salud muestran una reducción del 60% en enfermedades gastrointestinales en las comunidades beneficiarias.</p>",
-        "category": "salud",
-        "date": "2023-12-20",
-        "author": "Patricia Silva",
-        "image": "./images/novedades/agua-potable.jpg",
-        "featured": false,
-        "tags": ["agua potable", "Honduras", "salud", "familias", "saneamiento"]
-    },
-    {
-        "id": 6,
-        "title": "Informe Anual 2023: Impacto y Transparencia",
-        "excerpt": "Presentamos nuestro informe anual 2023, destacando los logros alcanzados y el impacto generado en las comunidades.",
-        "content": "<p>CLADES presenta su Informe Anual 2023, un documento que refleja nuestro compromiso con la transparencia y rinde cuentas sobre el impacto generado durante el año.</p><h3>Principales logros 2023:</h3><ul><li><strong>Educación:</strong> 750 becas otorgadas, 95% de tasa de graduación</li><li><strong>Medio Ambiente:</strong> 50,000 árboles plantados, 1,200 hectáreas restauradas</li><li><strong>Salud:</strong> 15,000 personas con acceso mejorado a servicios de salud</li><li><strong>Desarrollo Económico:</strong> 300 microemprendimientos apoyados</li><li><strong>Infraestructura:</strong> 25 proyectos de infraestructura comunitaria</li></ul><h3>Datos financieros:</h3><ul><li>Ingresos totales: $3.2 millones</li><li>85% destinado directamente a programas</li><li>12% gastos administrativos</li><li>3% reservas para emergencias</li></ul><p>El informe incluye testimonios de beneficiarios, análisis de impacto independiente y auditoría financiera completa.</p><p>\"Este informe no solo documenta nuestros logros, sino que también identifica áreas de mejora y establece metas ambiciosas para 2024\", expresó nuestra Directora Ejecutiva.</p>",
-        "category": "institucional",
-        "date": "2023-12-15",
-        "author": "Roberto Díaz",
-        "image": "./images/novedades/informe-anual.jpg",
-        "featured": true,
-        "tags": ["informe", "transparencia", "impacto", "2023", "logros"]
-    },
-    {
-        "id": 7,
-        "title": "Curso de Liderazgo Femenino Gradúa a 80 Mujeres",
-        "excerpt": "Nuestro programa de liderazgo femenino ha graduado a 80 mujeres líderes que transformarán sus comunidades.",
-        "content": "<p>El Programa de Liderazgo Femenino CLADES ha graduado a su tercera cohorte, compuesta por 80 mujeres excepcionales de toda América Latina.</p><p>Durante 6 meses intensivos, las participantes recibieron formación en:</p><ul><li>Liderazgo transformacional y gestión de equipos</li><li>Comunicación efectiva y oratoria</li><li>Planificación estratégica y gestión de proyectos</li><li>Advocacy y incidencia política</li><li>Emprendimiento social y sostenibilidad financiera</li></ul><p>Las graduadas, provenientes de 15 países, han desarrollado 25 proyectos sociales que beneficiarán a más de 5,000 personas en sus comunidades.</p><p>El programa incluye un componente de mentoría continua y acceso a una red de más de 200 mujeres líderes graduadas de cohortes anteriores.</p>",
-        "category": "capacitacion",
-        "date": "2023-11-30",
-        "author": "Carmen Vega",
-        "image": "./images/novedades/liderazgo-femenino.jpg",
-        "featured": false,
-        "tags": ["liderazgo", "mujeres", "empoderamento", "capacitación", "género"]
-    },
-    {
-        "id": 8,
-        "title": "Respuesta de Emergencia ante Desastres Naturales",
-        "excerpt": "CLADES activa su protocolo de emergencia para brindar ayuda humanitaria tras los recientes desastres naturales.",
-        "content": "<p>Ante los recientes desastres naturales que han afectado a varios países de la región, CLADES ha activado su Protocolo de Respuesta de Emergencia.</p><p>Nuestras acciones inmediatas incluyen:</p><ul><li>Distribución de 500 kits de ayuda humanitaria</li><li>Instalación de 3 centros temporales de alojamiento</li><li>Brigadas médicas móviles en zonas afectadas</li><li>Apoyo psicosocial para 200 familias</li><li>Programa de reconstrucción de infraestructura comunitaria</li></ul><p>Trabajamos en coordinación con autoridades locales y organizaciones internacionales para maximizar el impacto de nuestra respuesta.</p>",
-        "category": "emergencia",
-        "date": "2023-11-15",
-        "author": "Miguel Torres",
-        "image": "./images/novedades/emergencia-desastres.jpg",
-        "featured": true,
-        "tags": ["emergencia", "desastres", "ayuda humanitaria", "reconstrucción", "solidaridad"]
-    }
+  {
+    "id": 1,
+    "titulo": "Nueva campaña de ayuda alimentaria",
+    "descripcion": "Lanzamos una nueva iniciativa para brindar asistencia alimentaria a familias en situación de vulnerabilidad en nuestra comunidad.",
+    "fecha": "2024-01-15",
+    "imagen": "/placeholder.svg?height=300&width=400",
+    "contenido": "Esta campaña busca llegar a más de 200 familias durante los próximos tres meses, proporcionando alimentos básicos y nutritivos."
+  },
+  {
+    "id": 2,
+    "titulo": "Taller de capacitación laboral",
+    "descripcion": "Iniciamos un programa de capacitación en oficios para jóvenes de la comunidad, enfocado en habilidades técnicas y emprendimiento.",
+    "fecha": "2024-01-10",
+    "imagen": "/placeholder.svg?height=300&width=400",
+    "contenido": "El taller incluye formación en carpintería, electricidad básica y desarrollo de habilidades blandas para el mundo laboral."
+  },
+  {
+    "id": 3,
+    "titulo": "Jornada de salud comunitaria",
+    "descripcion": "Realizamos una jornada gratuita de atención médica básica y controles preventivos para toda la familia.",
+    "fecha": "2024-01-05",
+    "imagen": "/placeholder.svg?height=300&width=400",
+    "contenido": "Más de 150 personas recibieron atención médica gratuita, incluyendo controles de presión, glucemia y consultas generales."
+  },
+  {
+    "id": 4,
+    "titulo": "Programa de apoyo escolar",
+    "descripcion": "Lanzamos un nuevo programa de apoyo escolar para niños y adolescentes con dificultades académicas.",
+    "fecha": "2023-12-20",
+    "imagen": "/placeholder.svg?height=300&width=400",
+    "contenido": "El programa ofrece clases de apoyo en matemáticas, lengua y ciencias, además de actividades recreativas educativas."
+  },
+  {
+    "id": 5,
+    "titulo": "Construcción de huerta comunitaria",
+    "descripcion": "Inauguramos una huerta comunitaria que permitirá a las familias cultivar sus propios alimentos orgánicos.",
+    "fecha": "2023-12-15",
+    "imagen": "/placeholder.svg?height=300&width=400",
+    "contenido": "La huerta cuenta con 20 parcelas familiares y un área común para cultivos de temporada, promoviendo la alimentación saludable."
+  },
+  {
+    "id": 6,
+    "titulo": "Celebración del Día del Niño",
+    "descripcion": "Organizamos una gran celebración del Día del Niño con actividades recreativas, juegos y regalos para todos los pequeños.",
+    "fecha": "2023-12-10",
+    "imagen": "/placeholder.svg?height=300&width=400",
+    "contenido": "Más de 300 niños participaron de esta celebración especial con actividades deportivas, talleres de arte y una merienda compartida."
+  }
 ]

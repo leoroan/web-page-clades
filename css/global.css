@@ -1,117 +1,87 @@
-/* Global Styles - Estilos globales para el sitio web de CLADES */
-
-/* Reset básico */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* Variables CSS */
+/* Colores pasteles principales para CLADES */
 :root {
-    --color-primary: #2c3e50;
-    --color-secondary: #3498db;
-    --color-accent: #e74c3c;
-    --color-success: #27ae60;
-    --color-warning: #f39c12;
-    --color-text: #333;
-    --color-text-light: #666;
-    --color-background: #fff;
-    --color-background-light: #f8f9fa;
-    --font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    --font-size-base: 16px;
-    --line-height-base: 1.6;
-    --border-radius: 8px;
-    --shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    --transition: all 0.3s ease;
+  --pastel-blue: #2fbbee;
+  --pastel-green: #b8e6b8;
+  --pastel-coral: #ffb3ba;
 }
 
-/* Tipografía */
-body {
-    font-family: var(--font-family);
-    font-size: var(--font-size-base);
-    line-height: var(--line-height-base);
-    color: var(--color-text);
-    background-color: var(--color-background);
+/* Sobrescribir colores primary de Bootstrap */
+.bg-primary {
+  background-color: var(--pastel-blue) !important;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    margin-bottom: 1rem;
-    font-weight: 600;
-    line-height: 1.2;
+.text-primary {
+  color: var(--pastel-blue) !important;
 }
 
-h1 { font-size: 2.5rem; }
-h2 { font-size: 2rem; }
-h3 { font-size: 1.75rem; }
-h4 { font-size: 1.5rem; }
-h5 { font-size: 1.25rem; }
-h6 { font-size: 1rem; }
-
-p {
-    margin-bottom: 1rem;
+.btn-primary {
+  background-color: var(--pastel-blue) !important;
+  border-color: var(--pastel-blue) !important;
+  color: #333 !important;
 }
 
+.btn-primary:hover {
+  background-color: #95c9dd !important;
+  border-color: #95c9dd !important;
+  color: #333 !important;
+}
+
+.btn-outline-primary {
+  color: var(--pastel-blue) !important;
+  border-color: var(--pastel-blue) !important;
+}
+
+.btn-outline-primary:hover {
+  background-color: var(--pastel-blue) !important;
+  border-color: var(--pastel-blue) !important;
+  color: #333 !important;
+}
+
+/* Sobrescribir colores success de Bootstrap */
+.bg-success {
+  background-color: var(--pastel-green) !important;
+}
+
+.text-success {
+  color: var(--pastel-green) !important;
+}
+
+.btn-success {
+  background-color: var(--pastel-green) !important;
+  border-color: var(--pastel-green) !important;
+  color: #333 !important;
+}
+
+/* Sobrescribir colores danger/accent */
+.text-danger {
+  color: var(--pastel-coral) !important;
+}
+
+.bg-danger {
+  background-color: var(--pastel-coral) !important;
+}
+
+/* Enlaces en colores pasteles */
 a {
-    color: var(--color-secondary);
-    text-decoration: none;
-    transition: var(--transition);
+  color: var(--pastel-blue) !important;
 }
 
 a:hover {
-    color: var(--color-primary);
+  color: #95c9dd !important;
 }
 
-/* Layout básico */
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
+/* Navbar active link */
+.navbar-nav .nav-link.active {
+  color: var(--pastel-blue) !important;
 }
 
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0 -15px;
+/* Form focus states */
+.form-control:focus {
+  border-color: var(--pastel-blue) !important;
+  box-shadow: 0 0 0 0.2rem rgba(168, 216, 234, 0.25) !important;
 }
 
-.col {
-    flex: 1;
-    padding: 0 15px;
-}
-
-/* Utilidades */
-.text-center { text-align: center; }
-.text-left { text-align: left; }
-.text-right { text-align: right; }
-
-.mt-1 { margin-top: 0.25rem; }
-.mt-2 { margin-top: 0.5rem; }
-.mt-3 { margin-top: 1rem; }
-.mt-4 { margin-top: 1.5rem; }
-.mt-5 { margin-top: 3rem; }
-
-.mb-1 { margin-bottom: 0.25rem; }
-.mb-2 { margin-bottom: 0.5rem; }
-.mb-3 { margin-bottom: 1rem; }
-.mb-4 { margin-bottom: 1.5rem; }
-.mb-5 { margin-bottom: 3rem; }
-
-/* Responsive */
-@media (max-width: 768px) {
-    .container {
-        padding: 0 15px;
-    }
-    
-    .row {
-        margin: 0 -10px;
-    }
-    
-    .col {
-        padding: 0 10px;
-    }
-    
-    h1 { font-size: 2rem; }
-    h2 { font-size: 1.75rem; }
-    h3 { font-size: 1.5rem; }
+/* Shadow personalizado con colores pasteles */
+.shadow-sm {
+  box-shadow: 0 0.125rem 0.25rem rgba(168, 216, 234, 0.2) !important;
 }
