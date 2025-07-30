@@ -4,6 +4,16 @@ document.addEventListener("DOMContentLoaded", () => {
   loadNews()
 })
 
+function formatDate(dateString) {
+  const date = new Date(dateString)
+  const options = {
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+  }
+  return date.toLocaleDateString("es-ES", options)
+}
+
 async function loadNews() {
   try {
     const response = await fetch("data/novedades.json")
@@ -35,15 +45,17 @@ function createNewsCard(news) {
   const formattedDate = formatDate(news.fecha)
 
   col.innerHTML = `
-        <div class="h-100 bg-white rounded shadow-sm overflow-hidden">
-            <img src="${news.imagen}" class="w-100" style="height: 250px; object-fit: cover;" alt="${news.titulo}">
-            <div class="p-4">
-                <div class="d-flex align-items-center mb-2">
-                    <i class="bi bi-calendar-event text-primary me-2"></i>
-                    <small class="text-muted">${formattedDate}</small>
+        <div class="h-100 bg-white rounded shadow overflow-hidden border p-1">
+            <img src="${news.imagen}" class="card-img-top" style="height: 250px; object-fit: cover;" alt="${news.titulo}">
+            <div class="card-body p-3">
+                <div class="text-end mb-3">
+                    <i class="bi bi-calendar-event text-primary me-2">
+                    <small class="text-muted">${formattedDate}</small></i>
                 </div>
                 <h5 class="text-primary fw-bold mb-3">${news.titulo}</h5>
                 <p class="text-muted mb-3">${news.descripcion}</p>
+            </div>
+            <div class="card-footer bg-white text-end m-2">
                 <button class="btn btn-outline-primary btn-sm" onclick="showNewsDetail(${news.id})">
                     <i class="bi bi-arrow-right me-1"></i>Leer más
                 </button>
@@ -52,16 +64,6 @@ function createNewsCard(news) {
     `
 
   return col
-}
-
-function formatDate(dateString) {
-  const date = new Date(dateString)
-  const options = {
-    year: "numeric",
-    month: "long",
-    day: "numeric",
-  }
-  return date.toLocaleDateString("es-ES", options)
 }
 
 function showNewsDetail(newsId) {

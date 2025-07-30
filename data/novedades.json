@@ -46,5 +46,21 @@
     "fecha": "2023-12-10",
     "imagen": "./images/novedades/placeholder.svg",
     "contenido": "Más de 300 niños participaron de esta celebración especial con actividades deportivas, talleres de arte y una merienda compartida."
+  },
+  {
+    "id": 7,
+    "titulo": "Campaña de recolección de ropa",
+    "descripcion": "Iniciamos una campaña para recolectar ropa de abrigo para las familias más necesitadas durante el invierno.",
+    "fecha": "2023-12-01",
+    "imagen": "./images/novedades/placeholder.svg",
+    "contenido": "La campaña busca recolectar abrigos, mantas y ropa de invierno en buen estado para distribuir entre las familias vulnerables."
+  },
+  {
+    "id": 8,
+    "titulo": "Taller de prevención de violencia de género",
+    "descripcion": "Realizamos un taller sobre prevención de violencia de género y promoción de derechos humanos en la comunidad.",
+    "fecha": "2023-11-25",
+    "imagen": "./images/novedades/placeholder.svg",
+    "contenido": "El taller incluyó charlas informativas, dinámicas grupales y recursos para ayudar a las víctimas de violencia."
   }
 ]
