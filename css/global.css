@@ -90,7 +90,7 @@ a:hover {
 .hero-section {
   position: relative;
   min-height: 75vh;
-  background-image: url("./images/hero/nature.jpg");
+  background-image: url("../images/hero/nature.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

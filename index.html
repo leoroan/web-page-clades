@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Clades - Inicio</title>
+  <title>CLAdeES - Inicio</title>
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
     crossorigin="anonymous">
@@ -20,14 +20,15 @@
   <!-- Top Contact Bar -->
   <div class="bg-primary text-white py-2">
     <div class="container">
-      <div class="row align-items-center">
-        <div class="col-md-8">
+      <div class="d-flex align-items-start justify-content-between flex-wrap">
+        <div class="d-flex align-items-center gap-4 flex-wrap">
+          <span class="fw-bold fs-4 text-secondary me-3">CLAdeES</span>
           <small>
             <i class="bi bi-geo-alt-fill me-2"></i>Av. Principal 123, Ciudad
             <i class="bi bi-telephone-fill ms-3 me-2"></i>+54 11 1234-5678
           </small>
         </div>
-        <div class="col-md-4 text-end">
+        <div>
           <a href="#" class="text-white me-3"><i class="bi bi-facebook fs-5"></i></a>
           <a href="#" class="text-white me-3"><i class="bi bi-twitter fs-5"></i></a>
           <a href="#" class="text-white me-3"><i class="bi bi-instagram fs-5"></i></a>
@@ -39,10 +40,10 @@
 
   <!-- Main Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm border-bottom">
-    <div class="container-fluid">
+    <div class="container">
       <a class="navbar-brand d-flex align-items-center" href="index.html">
         <i class="bi bi-heart-fill text-danger fs-2 m-2"></i>
-        <span class="fw-bold fs-4 text-primary">CLADES</span>
+        <span class="fw-bold fs-4 text-primary">CLAdeES</span>
       </a>
 
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
@@ -72,89 +73,948 @@
       <div class="row">
         <div class="col-lg-8 col-xl-6">
           <div class="hero-content">
-            <h1 class="display-4 fw-bold mb-4">Bienvenidos a CLADES</h1>
+            <h1 class="display-4 fw-bold mb-4">Bienvenidos al CLAdeES</h1>
             <p class="lead mb-4">
               Trabajamos por un futuro mejor, construyendo puentes hacia la esperanza y el desarrollo comunitario.
             </p>
-            <button class="btn btn-primary btn-lg">
+            <!-- <button class="btn btn-primary btn-lg">
               <i class="bi bi-arrow-right-circle me-2"></i>Conoce más
-            </button>
+            </button> -->
           </div>
           <!-- <div class="col-lg-6">
-            <img src="/images/hero/nature.jpg" class="img-fluid rounded shadow" alt="CLADES en acción">
+            <img src="/images/hero/nature.jpg" class="img-fluid rounded shadow" alt="CLAdeES en acción">
           </div> -->
         </div>
       </div>
   </section>
 
-  <!-- Contact Form and Info Section -->
-  <section class="py-5 bg-white border-top">
+  <!-- Welcome Section -->
+  <section class="py-5 bg-light">
     <div class="container">
-      <div class="row">
-        <!-- Contact Form -->
-        <div class="col-lg-6 mb-4">
-          <h3 class="text-primary mb-4">
-            <i class="bi bi-envelope-fill me-2"></i>Contáctanos
-          </h3>
-          <form>
-            <div class="mb-3">
-              <label for="nombre" class="form-label">Nombre completo</label>
-              <input type="text" class="form-control" id="nombre" required>
+      <!-- Main Welcome Card -->
+      <div class="row justify-content-center mb-5">
+        <div class="col-lg-8">
+          <div class="card border-0 shadow-sm">
+            <div class="card-body p-5 text-center">
+              <div class="mb-4">
+                <i class="bi bi-heart-fill text-danger display-4"></i>
+              </div>
+              <h2 class="card-title text-primary fw-bold mb-4">Un mensaje de la organización</h2>
+              <p class="card-text lead text-muted mb-4">
+                En CLAdeES creemos que cada pequeña acción puede generar un gran cambio. Desde hace más de una década,
+                trabajamos junto a comunidades vulnerables para construir un futuro más justo y esperanzador.
+              </p>
+              <p class="card-text text-muted mb-4">
+                Nuestro compromiso va más allá de las palabras: es acción, es presencia, es acompañamiento.
+                Cada proyecto que emprendemos nace del diálogo con quienes más lo necesitan,
+                porque entendemos que el verdadero desarrollo se construye desde adentro.
+              </p>
+              <div class="d-flex justify-content-center">
+                <button class="btn btn-primary me-3">
+                  <i class="bi bi-people-fill me-2"></i>Conoce nuestro equipo
+                </button>
+                <button class="btn btn-outline-primary">
+                  <i class="bi bi-journal-text me-2"></i>Nuestra historia
+                </button>
+              </div>
             </div>
-            <div class="mb-3">
-              <label for="email" class="form-label">Email</label>
-              <input type="email" class="form-control" id="email" required>
+          </div>
+        </div>
+      </div>
+
+      <!-- Values Cards -->
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card h-100 border-0 shadow-sm">
+            <div class="card-body text-center p-4">
+              <div class="mb-3">
+                <i class="bi bi-hand-thumbs-up-fill text-success display-5"></i>
+              </div>
+              <h5 class="card-title text-primary fw-bold">Compromiso</h5>
+              <p class="card-text text-muted">
+                Trabajamos con dedicación y responsabilidad, manteniendo siempre nuestro compromiso
+                con las comunidades que servimos.
+              </p>
             </div>
-            <div class="mb-3">
-              <label for="telefono" class="form-label">Teléfono</label>
-              <input type="tel" class="form-control" id="telefono">
-            </div>
-            <div class="mb-3">
-              <label for="mensaje" class="form-label">Mensaje</label>
-              <textarea class="form-control" id="mensaje" rows="4" required></textarea>
-            </div>
-            <button type="submit" class="btn btn-primary">
-              <i class="bi bi-send-fill me-2"></i>Enviar mensaje
-            </button>
-          </form>
+          </div>
         </div>
 
-        <!-- Contact Info -->
-        <div class="col-lg-6">
-          <h3 class="text-primary mb-4">
-            <i class="bi bi-info-circle-fill me-2"></i>Información de contacto
-          </h3>
-          <div class="mb-4">
-            <h5 class="text-secondary">
-              <i class="bi bi-geo-alt-fill text-danger me-2"></i>Dirección
-            </h5>
-            <p class="text-muted">Av. Principal 123, Ciudad, Provincia, CP 1234</p>
+        <div class="col-md-4">
+          <div class="card h-100 border-0 shadow-sm">
+            <div class="card-body text-center p-4">
+              <div class="mb-3">
+                <i class="bi bi-people-fill text-primary display-5"></i>
+              </div>
+              <h5 class="card-title text-primary fw-bold">Comunidad</h5>
+              <p class="card-text text-muted">
+                Creemos en el poder de la unión. Trabajamos de la mano con las comunidades
+                para generar soluciones duraderas y sostenibles.
+              </p>
+            </div>
           </div>
-          <div class="mb-4">
-            <h5 class="text-secondary">
-              <i class="bi bi-telephone-fill text-success me-2"></i>Teléfono
-            </h5>
-            <p class="text-muted">+54 11 1234-5678</p>
-          </div>
-          <div class="mb-4">
-            <h5 class="text-secondary">
-              <i class="bi bi-envelope-fill text-primary me-2"></i>Email
-            </h5>
-            <p class="text-muted">contacto@clades.org</p>
-          </div>
-          <div class="mb-4">
-            <h5 class="text-secondary">
-              <i class="bi bi-clock-fill text-warning me-2"></i>Horarios de atención
-            </h5>
-            <p class="text-muted">
-              Lunes a Viernes: 9:00 - 18:00<br>
-              Sábados: 9:00 - 13:00
-            </p>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card h-100 border-0 shadow-sm">
+            <div class="card-body text-center p-4">
+              <div class="mb-3">
+                <i class="bi bi-lightbulb-fill text-warning display-5"></i>
+              </div>
+              <h5 class="card-title text-primary fw-bold">Innovación</h5>
+              <p class="card-text text-muted">
+                Buscamos constantemente nuevas formas de abordar los desafíos sociales,
+                adaptándonos a las necesidades cambiantes de nuestro tiempo.
+              </p>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </section>
+
+  <!-- About Us Section -->
+  <section class="py-5 bg-white">
+    <div class="container">
+      <div class="row mb-5">
+        <div class="col-12 text-center">
+          <h2 class="display-5 fw-bold text-primary mb-3">
+            <i class="bi bi-people-fill me-3"></i>Quiénes somos
+          </h2>
+          <p class="lead text-muted">Conoce más sobre nuestra organización, historia y el equipo que hace posible
+            nuestro trabajo</p>
+        </div>
+      </div>
+
+      <div class="row align-items-center mb-5">
+        <div class="col-lg-6 mb-4">
+          <img src="/placeholder.svg?height=400&width=600&text=Equipo+CLADES+trabajando"
+            class="img-fluid rounded shadow" alt="Equipo de CLADES trabajando">
+        </div>
+        <div class="col-lg-6">
+          <h3 class="text-primary fw-bold mb-4">Nuestra historia</h3>
+          <p class="text-muted mb-3">
+            CLADES nació en 2010 como respuesta a la necesidad de crear espacios de desarrollo
+            integral en comunidades vulnerables. Lo que comenzó como un pequeño grupo de voluntarios
+            comprometidos, hoy se ha convertido en una organización reconocida por su trabajo
+            transparente y efectivo.
+          </p>
+          <p class="text-muted mb-4">
+            A lo largo de estos años, hemos acompañado a más de 500 familias en su proceso de
+            crecimiento, implementado 25 proyectos comunitarios y formado una red de colaboradores
+            que abarca toda la región.
+          </p>
+          <div class="row g-3">
+            <div class="col-6">
+              <div class="text-center p-3 bg-light rounded">
+                <h4 class="text-primary fw-bold mb-1">500+</h4>
+                <small class="text-muted">Familias acompañadas</small>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="text-center p-3 bg-light rounded">
+                <h4 class="text-primary fw-bold mb-1">25</h4>
+                <small class="text-muted">Proyectos realizados</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row align-items-center mb-5">
+        <div class="col-lg-6 order-lg-2 mb-4">
+          <img src="/placeholder.svg?height=400&width=600&text=Misión+y+Visión+CLADES" class="img-fluid rounded shadow"
+            alt="Misión y visión de CLADES">
+        </div>
+        <div class="col-lg-6 order-lg-1">
+          <h3 class="text-primary fw-bold mb-4">Misión y Visión</h3>
+          <div class="mb-4">
+            <h5 class="text-secondary fw-bold mb-2">
+              <i class="bi bi-bullseye text-danger me-2"></i>Nuestra Misión
+            </h5>
+            <p class="text-muted">
+              Promover el desarrollo integral de comunidades vulnerables a través de programas
+              educativos, de salud y desarrollo económico, fortaleciendo las capacidades locales
+              y generando oportunidades de crecimiento sostenible.
+            </p>
+          </div>
+          <div class="mb-4">
+            <h5 class="text-secondary fw-bold mb-2">
+              <i class="bi bi-eye-fill text-primary me-2"></i>Nuestra Visión
+            </h5>
+            <p class="text-muted">
+              Ser una organización referente en el desarrollo comunitario, reconocida por su
+              impacto positivo, transparencia y capacidad de generar cambios duraderos en la
+              vida de las personas y comunidades que acompañamos.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Team Cards -->
+      <div class="row mb-5">
+        <div class="col-12 text-center mb-4">
+          <h3 class="text-primary fw-bold">Nuestro equipo directivo</h3>
+          <p class="text-muted">Las personas que lideran nuestros proyectos y programas</p>
+        </div>
+      </div>
+
+      <div class="row g-4">
+        <div class="col-lg-4 col-md-6">
+          <div class="card border-0 shadow-sm text-center">
+            <div class="card-body p-4">
+              <div class="mb-3">
+                <img src="/placeholder.svg?height=120&width=120&text=María+González" class="rounded-circle" width="120"
+                  height="120" alt="María González">
+              </div>
+              <h5 class="card-title text-primary fw-bold">María González</h5>
+              <p class="text-muted small mb-2">Directora Ejecutiva</p>
+              <p class="card-text text-muted small">
+                Licenciada en Trabajo Social con 15 años de experiencia en desarrollo comunitario.
+                Lidera la visión estratégica de CLADES.
+              </p>
+              <div class="mt-3">
+                <a href="#" class="text-primary me-2"><i class="bi bi-linkedin"></i></a>
+                <a href="#" class="text-primary"><i class="bi bi-envelope-fill"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+          <div class="card border-0 shadow-sm text-center">
+            <div class="card-body p-4">
+              <div class="mb-3">
+                <img src="/placeholder.svg?height=120&width=120&text=Carlos+Mendez" class="rounded-circle" width="120"
+                  height="120" alt="Carlos Méndez">
+              </div>
+              <h5 class="card-title text-primary fw-bold">Carlos Méndez</h5>
+              <p class="text-muted small mb-2">Coordinador de Proyectos</p>
+              <p class="card-text text-muted small">
+                Ingeniero Civil especializado en proyectos sociales. Supervisa la implementación
+                y seguimiento de todos nuestros programas.
+              </p>
+              <div class="mt-3">
+                <a href="#" class="text-primary me-2"><i class="bi bi-linkedin"></i></a>
+                <a href="#" class="text-primary"><i class="bi bi-envelope-fill"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+          <div class="card border-0 shadow-sm text-center">
+            <div class="card-body p-4">
+              <div class="mb-3">
+                <img src="/placeholder.svg?height=120&width=120&text=Ana+Rodriguez" class="rounded-circle" width="120"
+                  height="120" alt="Ana Rodríguez">
+              </div>
+              <h5 class="card-title text-primary fw-bold">Ana Rodríguez</h5>
+              <p class="text-muted small mb-2">Responsable de Comunicación</p>
+              <p class="card-text text-muted small">
+                Comunicadora Social con experiencia en organizaciones sin fines de lucro.
+                Gestiona nuestras comunicaciones y relaciones públicas.
+              </p>
+              <div class="mt-3">
+                <a href="#" class="text-primary me-2"><i class="bi bi-linkedin"></i></a>
+                <a href="#" class="text-primary"><i class="bi bi-envelope-fill"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Institutional Section -->
+  <section class="py-5 bg-light">
+    <div class="container">
+      <div class="row mb-5">
+        <div class="col-12 text-center">
+          <h2 class="display-5 fw-bold text-primary mb-3">
+            <i class="bi bi-building me-3"></i>Institucional
+          </h2>
+          <p class="lead text-muted">Información formal, documentos y aspectos legales de nuestra organización</p>
+        </div>
+      </div>
+
+      <!-- Legal Information -->
+      <div class="row mb-5">
+        <div class="col-lg-6 mb-4">
+          <div class="card border-0 shadow-sm h-100">
+            <div class="card-body p-4">
+              <h4 class="text-primary fw-bold mb-4">
+                <i class="bi bi-file-earmark-text-fill me-2"></i>Información Legal
+              </h4>
+              <div class="mb-3">
+                <h6 class="text-secondary fw-bold">Razón Social:</h6>
+                <p class="text-muted mb-2">Fundación CLADES para el Desarrollo Comunitario</p>
+              </div>
+              <div class="mb-3">
+                <h6 class="text-secondary fw-bold">CUIT:</h6>
+                <p class="text-muted mb-2">30-12345678-9</p>
+              </div>
+              <div class="mb-3">
+                <h6 class="text-secondary fw-bold">Personería Jurídica:</h6>
+                <p class="text-muted mb-2">Resolución IGJ N° 1234/2010</p>
+              </div>
+              <div class="mb-3">
+                <h6 class="text-secondary fw-bold">Inscripción CENOC:</h6>
+                <p class="text-muted mb-2">Registro Nacional N° 5678</p>
+              </div>
+              <div class="mb-3">
+                <h6 class="text-secondary fw-bold">Domicilio Legal:</h6>
+                <p class="text-muted mb-2">Av. Principal 123, Ciudad, Provincia (CP 1234)</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6 mb-4">
+          <div class="card border-0 shadow-sm h-100">
+            <div class="card-body p-4">
+              <h4 class="text-primary fw-bold mb-4">
+                <i class="bi bi-award-fill me-2"></i>Certificaciones y Reconocimientos
+              </h4>
+              <div class="mb-3">
+                <div class="d-flex align-items-center mb-2">
+                  <i class="bi bi-check-circle-fill text-success me-2"></i>
+                  <span class="fw-bold">Certificación ISO 9001:2015</span>
+                </div>
+                <p class="text-muted small ms-4">Sistema de Gestión de Calidad</p>
+              </div>
+              <div class="mb-3">
+                <div class="d-flex align-items-center mb-2">
+                  <i class="bi bi-check-circle-fill text-success me-2"></i>
+                  <span class="fw-bold">Sello de Transparencia</span>
+                </div>
+                <p class="text-muted small ms-4">Otorgado por la Red Argentina de ONGs</p>
+              </div>
+              <div class="mb-3">
+                <div class="d-flex align-items-center mb-2">
+                  <i class="bi bi-check-circle-fill text-success me-2"></i>
+                  <span class="fw-bold">Premio Nacional de Desarrollo Social</span>
+                </div>
+                <p class="text-muted small ms-4">Ministerio de Desarrollo Social - 2022</p>
+              </div>
+              <div class="mb-3">
+                <div class="d-flex align-items-center mb-2">
+                  <i class="bi bi-check-circle-fill text-success me-2"></i>
+                  <span class="fw-bold">Acreditación AFIP</span>
+                </div>
+                <p class="text-muted small ms-4">Entidad de Bien Público</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Governance Structure -->
+      <div class="row mb-5">
+        <div class="col-12 mb-4">
+          <h3 class="text-primary fw-bold text-center">Estructura de Gobierno</h3>
+          <p class="text-muted text-center">Órganos de dirección y control de la organización</p>
+        </div>
+      </div>
+
+      <div class="row g-4 mb-5">
+        <div class="col-lg-4">
+          <div class="card border-0 shadow-sm text-center h-100">
+            <div class="card-body p-4">
+              <div class="mb-3">
+                <i class="bi bi-people-fill text-primary display-4"></i>
+              </div>
+              <h5 class="text-primary fw-bold">Consejo de Administración</h5>
+              <p class="text-muted small mb-3">
+                Órgano máximo de gobierno, compuesto por 7 miembros elegidos por la Asamblea.
+              </p>
+              <ul class="list-unstyled text-muted small">
+                <li><strong>Presidente:</strong> Dr. Roberto Silva</li>
+                <li><strong>Vicepresidente:</strong> Lic. Carmen López</li>
+                <li><strong>Secretario:</strong> Ing. Miguel Torres</li>
+                <li><strong>Tesorero:</strong> Cont. Laura Vega</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+          <div class="card border-0 shadow-sm text-center h-100">
+            <div class="card-body p-4">
+              <div class="mb-3">
+                <i class="bi bi-search text-warning display-4"></i>
+              </div>
+              <h5 class="text-primary fw-bold">Comisión Revisora de Cuentas</h5>
+              <p class="text-muted small mb-3">
+                Órgano de control interno que supervisa la gestión económica y administrativa.
+              </p>
+              <ul class="list-unstyled text-muted small">
+                <li><strong>Titular:</strong> Cont. Patricia Ruiz</li>
+                <li><strong>Titular:</strong> Lic. Fernando Castro</li>
+                <li><strong>Suplente:</strong> Dr. Andrés Morales</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+          <div class="card border-0 shadow-sm text-center h-100">
+            <div class="card-body p-4">
+              <div class="mb-3">
+                <i class="bi bi-gear-fill text-success display-4"></i>
+              </div>
+              <h5 class="text-primary fw-bold">Dirección Ejecutiva</h5>
+              <p class="text-muted small mb-3">
+                Responsable de la gestión operativa y la implementación de las decisiones del Consejo.
+              </p>
+              <ul class="list-unstyled text-muted small">
+                <li><strong>Directora Ejecutiva:</strong> María González</li>
+                <li><strong>Subdirector:</strong> Carlos Méndez</li>
+                <li><strong>Coordinación General:</strong> Ana Rodríguez</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Documents and Reports -->
+      <div class="row">
+        <div class="col-12 mb-4">
+          <h3 class="text-primary fw-bold text-center">Documentos y Reportes</h3>
+          <p class="text-muted text-center">Accede a nuestros documentos institucionales y reportes de gestión</p>
+        </div>
+      </div>
+
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-3">
+          <div class="card border-0 shadow-sm text-center h-100">
+            <div class="card-body p-4">
+              <div class="mb-3">
+                <i class="bi bi-file-earmark-pdf-fill text-danger display-4"></i>
+              </div>
+              <h6 class="text-primary fw-bold">Estatuto Social</h6>
+              <p class="text-muted small mb-3">Documento fundacional y normativo de la organización</p>
+              <button class="btn btn-outline-primary btn-sm">
+                <i class="bi bi-download me-1"></i>Descargar
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+          <div class="card border-0 shadow-sm text-center h-100">
+            <div class="card-body p-4">
+              <div class="mb-3">
+                <i class="bi bi-file-earmark-bar-graph-fill text-success display-4"></i>
+              </div>
+              <h6 class="text-primary fw-bold">Memoria Anual 2023</h6>
+              <p class="text-muted small mb-3">Reporte completo de actividades y resultados del año</p>
+              <button class="btn btn-outline-primary btn-sm">
+                <i class="bi bi-download me-1"></i>Descargar
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+          <div class="card border-0 shadow-sm text-center h-100">
+            <div class="card-body p-4">
+              <div class="mb-3">
+                <i class="bi bi-file-earmark-spreadsheet-fill text-primary display-4"></i>
+              </div>
+              <h6 class="text-primary fw-bold">Balance 2023</h6>
+              <p class="text-muted small mb-3">Estados contables auditados y certificados</p>
+              <button class="btn btn-outline-primary btn-sm">
+                <i class="bi bi-download me-1"></i>Descargar
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+          <div class="card border-0 shadow-sm text-center h-100">
+            <div class="card-body p-4">
+              <div class="mb-3">
+                <i class="bi bi-file-earmark-text-fill text-warning display-4"></i>
+              </div>
+              <h6 class="text-primary fw-bold">Código de Ética</h6>
+              <p class="text-muted small mb-3">Principios y valores que guían nuestro accionar</p>
+              <button class="btn btn-outline-primary btn-sm">
+                <i class="bi bi-download me-1"></i>Descargar
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Partnerships Section -->
+  <section class="py-5 bg-white">
+    <div class="container">
+      <div class="row mb-5">
+        <div class="col-12 text-center">
+          <h2 class="display-5 fw-bold text-primary mb-3">
+            <i class="bi bi-handshake me-3"></i>Nuestras Alianzas
+          </h2>
+          <p class="lead text-muted">Trabajamos junto a organizaciones que comparten nuestra visión de desarrollo
+            comunitario</p>
+        </div>
+      </div>
+
+      <!-- Partners Carousel -->
+      <div class="row mb-5">
+        <div class="col-12">
+          <div id="partnersCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
+            <div class="carousel-inner">
+              <!-- Slide 1 -->
+              <div class="carousel-item active">
+                <div class="row g-4 justify-content-center align-items-center">
+                  <div class="col-6 col-md-3 text-center">
+                    <div class="p-4">
+                      <i class="bi bi-bank2 text-primary display-4 mb-3"></i>
+                      <h6 class="text-primary fw-bold">Banco Nacional</h6>
+                      <small class="text-muted">Financiamiento de proyectos</small>
+                    </div>
+                  </div>
+                  <div class="col-6 col-md-3 text-center">
+                    <div class="p-4">
+                      <i class="bi bi-hospital text-success display-4 mb-3"></i>
+                      <h6 class="text-primary fw-bold">Hospital Regional</h6>
+                      <small class="text-muted">Programas de salud</small>
+                    </div>
+                  </div>
+                  <div class="col-6 col-md-3 text-center">
+                    <div class="p-4">
+                      <i class="bi bi-mortarboard text-warning display-4 mb-3"></i>
+                      <h6 class="text-primary fw-bold">Universidad Local</h6>
+                      <small class="text-muted">Investigación y capacitación</small>
+                    </div>
+                  </div>
+                  <div class="col-6 col-md-3 text-center">
+                    <div class="p-4">
+                      <i class="bi bi-building text-danger display-4 mb-3"></i>
+                      <h6 class="text-primary fw-bold">Municipalidad</h6>
+                      <small class="text-muted">Políticas públicas</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Slide 2 -->
+              <div class="carousel-item">
+                <div class="row g-4 justify-content-center align-items-center">
+                  <div class="col-6 col-md-3 text-center">
+                    <div class="p-4">
+                      <i class="bi bi-shop text-info display-4 mb-3"></i>
+                      <h6 class="text-primary fw-bold">Cámara de Comercio</h6>
+                      <small class="text-muted">Desarrollo económico</small>
+                    </div>
+                  </div>
+                  <div class="col-6 col-md-3 text-center">
+                    <div class="p-4">
+                      <i class="bi bi-tree text-success display-4 mb-3"></i>
+                      <h6 class="text-primary fw-bold">ONG Ambiental</h6>
+                      <small class="text-muted">Proyectos sustentables</small>
+                    </div>
+                  </div>
+                  <div class="col-6 col-md-3 text-center">
+                    <div class="p-4">
+                      <i class="bi bi-globe text-primary display-4 mb-3"></i>
+                      <h6 class="text-primary fw-bold">Fundación Global</h6>
+                      <small class="text-muted">Cooperación internacional</small>
+                    </div>
+                  </div>
+                  <div class="col-6 col-md-3 text-center">
+                    <div class="p-4">
+                      <i class="bi bi-tools text-secondary display-4 mb-3"></i>
+                      <h6 class="text-primary fw-bold">Sindicato de Oficios</h6>
+                      <small class="text-muted">Capacitación laboral</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Slide 3 -->
+              <div class="carousel-item">
+                <div class="row g-4 justify-content-center align-items-center">
+                  <div class="col-6 col-md-3 text-center">
+                    <div class="p-4">
+                      <i class="bi bi-heart-pulse text-danger display-4 mb-3"></i>
+                      <h6 class="text-primary fw-bold">Cruz Roja Local</h6>
+                      <small class="text-muted">Emergencias y salud</small>
+                    </div>
+                  </div>
+                  <div class="col-6 col-md-3 text-center">
+                    <div class="p-4">
+                      <i class="bi bi-book text-info display-4 mb-3"></i>
+                      <h6 class="text-primary fw-bold">Biblioteca Popular</h6>
+                      <small class="text-muted">Educación y cultura</small>
+                    </div>
+                  </div>
+                  <div class="col-6 col-md-3 text-center">
+                    <div class="p-4">
+                      <i class="bi bi-truck text-warning display-4 mb-3"></i>
+                      <h6 class="text-primary fw-bold">Empresa Logística</h6>
+                      <small class="text-muted">Distribución de ayuda</small>
+                    </div>
+                  </div>
+                  <div class="col-6 col-md-3 text-center">
+                    <div class="p-4">
+                      <i class="bi bi-wifi text-primary display-4 mb-3"></i>
+                      <h6 class="text-primary fw-bold">Tech Solutions</h6>
+                      <small class="text-muted">Tecnología y sistemas</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Carousel Controls -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#partnersCarousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#partnersCarousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Siguiente</span>
+            </button>
+
+            <!-- Carousel Indicators -->
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#partnersCarousel" data-bs-slide-to="0" class="active"></button>
+              <button type="button" data-bs-target="#partnersCarousel" data-bs-slide-to="1"></button>
+              <button type="button" data-bs-target="#partnersCarousel" data-bs-slide-to="2"></button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Partnership Types -->
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-3">
+          <div class="card border-0 shadow-sm text-center h-100">
+            <div class="card-body p-4">
+              <div class="mb-3">
+                <i class="bi bi-cash-coin text-success display-4"></i>
+              </div>
+              <h5 class="text-primary fw-bold">Alianzas Financieras</h5>
+              <p class="text-muted small">
+                Instituciones que nos apoyan económicamente para el desarrollo de nuestros proyectos comunitarios.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+          <div class="card border-0 shadow-sm text-center h-100">
+            <div class="card-body p-4">
+              <div class="mb-3">
+                <i class="bi bi-people-fill text-primary display-4"></i>
+              </div>
+              <h5 class="text-primary fw-bold">Alianzas Estratégicas</h5>
+              <p class="text-muted small">
+                Organizaciones con las que compartimos recursos, conocimientos y experiencias para mayor impacto.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+          <div class="card border-0 shadow-sm text-center h-100">
+            <div class="card-body p-4">
+              <div class="mb-3">
+                <i class="bi bi-gear-fill text-warning display-4"></i>
+              </div>
+              <h5 class="text-primary fw-bold">Alianzas Técnicas</h5>
+              <p class="text-muted small">
+                Socios que nos brindan expertise técnico, capacitación y herramientas especializadas.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+          <div class="card border-0 shadow-sm text-center h-100">
+            <div class="card-body p-4">
+              <div class="mb-3">
+                <i class="bi bi-heart-fill text-danger display-4"></i>
+              </div>
+              <h5 class="text-primary fw-bold">Alianzas Sociales</h5>
+              <p class="text-muted small">
+                Redes comunitarias y organizaciones de base que fortalecen nuestro trabajo territorial.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Form and Info Section -->
+  <section class="py-5 bg-light">
+    <div class="container">
+      <!-- Section Header -->
+      <div class="row mb-5">
+        <div class="col-12 text-center">
+          <h2 class="display-5 fw-bold text-primary mb-3">
+            <i class="bi bi-chat-heart-fill me-3"></i>Conectemos para transformar
+          </h2>
+          <p class="lead text-muted">
+            Tu mensaje es el primer paso para construir juntos un futuro mejor.
+            Estamos aquí para escucharte y acompañarte.
+          </p>
+        </div>
+      </div>
+
+      <div class="row g-5">
+        <!-- Contact Form -->
+        <div class="col-lg-7">
+          <div class="card border-0 shadow-lg">
+            <div class="card-body p-5">
+              <div class="mb-4 text-center">
+                <div
+                  class="bg-primary bg-opacity-10 rounded-circle d-inline-flex align-items-center justify-content-center mb-3"
+                  style="width: 80px; height: 80px;">
+                  <i class="bi bi-envelope-heart text-secondary display-5"></i>
+                </div>
+                <h3 class="text-primary fw-bold mb-2">¡Queremos conocerte!</h3>
+                <p class="text-muted">
+                  Cada mensaje que recibimos es una oportunidad de crear vínculos
+                  y generar impacto positivo en nuestra comunidad.
+                </p>
+              </div>
+
+              <form>
+                <div class="row g-3">
+                  <div class="col-md-6">
+                    <label for="nombre" class="form-label fw-semibold">
+                      <i class="bi bi-person-fill text-primary me-2"></i>Nombre completo
+                    </label>
+                    <input type="text" class="form-control form-control-lg" id="nombre" placeholder="¿Cómo te llamas?"
+                      required>
+                  </div>
+                  <div class="col-md-6">
+                    <label for="telefono" class="form-label fw-semibold">
+                      <i class="bi bi-telephone-fill text-success me-2"></i>Teléfono
+                    </label>
+                    <input type="tel" class="form-control form-control-lg" id="telefono" placeholder="+54 11 1234-5678">
+                  </div>
+                </div>
+
+                <div class="mb-3">
+                  <label for="email" class="form-label fw-semibold">
+                    <i class="bi bi-envelope-fill text-warning me-2"></i>Email
+                  </label>
+                  <input type="email" class="form-control form-control-lg" id="email" placeholder="tu.email@ejemplo.com"
+                    required>
+                </div>
+
+                <div class="mb-3">
+                  <label for="motivo" class="form-label fw-semibold">
+                    <i class="bi bi-chat-dots-fill text-info me-2"></i>¿En qué podemos ayudarte?
+                  </label>
+                  <select class="form-select form-select-lg" id="motivo" required>
+                    <option value="">Selecciona una opción...</option>
+                    <option value="voluntariado">Quiero ser voluntario/a</option>
+                    <option value="donacion">Información sobre donaciones</option>
+                    <option value="alianza">Propuesta de alianza</option>
+                    <option value="beneficiario">Solicitar ayuda/servicios</option>
+                    <option value="prensa">Consulta de prensa</option>
+                    <option value="general">Consulta general</option>
+                  </select>
+                </div>
+
+                <div class="mb-4">
+                  <label for="mensaje" class="form-label fw-semibold">
+                    <i class="bi bi-chat-text-fill text-danger me-2"></i>Tu mensaje
+                  </label>
+                  <textarea class="form-control form-control-lg" id="mensaje" rows="4"
+                    placeholder="Cuéntanos más sobre tu consulta, idea o cómo podemos trabajar juntos..."
+                    required></textarea>
+                </div>
+
+                <div class="d-grid">
+                  <button type="submit" class="btn btn-primary btn-lg py-3">
+                    <i class="bi bi-send-fill me-2"></i>Enviar mensaje
+                    <i class="bi bi-arrow-right ms-2"></i>
+                  </button>
+                </div>
+
+                <div class="mt-3 text-center">
+                  <small class="text-muted">
+                    <i class="bi bi-shield-check text-success me-1"></i>
+                    Tus datos están protegidos y solo los usaremos para contactarte.
+                  </small>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact Info -->
+        <div class="col-lg-5">
+          <div class="h-100">
+            <!-- Contact Methods -->
+            <div class="card border-0 shadow-lg mb-4">
+              <div class="card-body p-4">
+                <h4 class="text-primary fw-bold mb-4">
+                  <i class="bi bi-geo-alt-fill me-2"></i>Encuéntranos
+                </h4>
+
+                <div class="mb-4 p-3 bg-light rounded">
+                  <div class="d-flex align-items-start">
+                    <div
+                      class="bg-danger bg-opacity-10 rounded-circle d-flex align-items-center justify-content-center me-3"
+                      style="width: 50px; height: 50px; min-width: 50px;">
+                      <i class="bi bi-geo-alt-fill text-secondary"></i>
+                    </div>
+                    <div>
+                      <h6 class="fw-bold text-secondary mb-1">Nuestra sede</h6>
+                      <p class="text-muted mb-1">Av. Principal 123, Ciudad</p>
+                      <p class="text-muted mb-0">Provincia, CP 1234</p>
+                      <small class="text-primary">
+                        <i class="bi bi-arrow-right me-1"></i>Ver en mapa
+                      </small>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="mb-4 p-3 bg-light rounded">
+                  <div class="d-flex align-items-start">
+                    <div
+                      class="bg-success bg-opacity-10 rounded-circle d-flex align-items-center justify-content-center me-3"
+                      style="width: 50px; height: 50px; min-width: 50px;">
+                      <i class="bi bi-telephone-fill text-secondary"></i>
+                    </div>
+                    <div>
+                      <h6 class="fw-bold text-secondary mb-1">Línea directa</h6>
+                      <p class="text-muted mb-1">+54 11 1234-5678</p>
+                      <small class="text-success">
+                        <i class="bi bi-whatsapp me-1"></i>También por WhatsApp
+                      </small>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="mb-4 p-3 bg-light rounded">
+                  <div class="d-flex align-items-start">
+                    <div
+                      class="bg-primary bg-opacity-10 rounded-circle d-flex align-items-center justify-content-center me-3"
+                      style="width: 50px; height: 50px; min-width: 50px;">
+                      <i class="bi bi-envelope-fill text-secondary"></i>
+                    </div>
+                    <div>
+                      <h6 class="fw-bold text-secondary mb-1">Email institucional</h6>
+                      <p class="text-muted mb-1">contacto@clades.org</p>
+                      <small class="text-primary">
+                        <i class="bi bi-reply-fill me-1"></i>Respuesta en 24hs
+                      </small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Office Hours -->
+            <div class="card border-0 shadow-lg mb-4">
+              <div class="card-body p-4">
+                <h4 class="text-primary fw-bold mb-4">
+                  <i class="bi bi-clock-fill me-2"></i>Horarios de atención
+                </h4>
+
+                <div class="row g-3">
+                  <div class="col-12">
+                    <div class="d-flex justify-content-between align-items-center p-3 bg-light rounded">
+                      <div>
+                        <h6 class="fw-bold text-secondary mb-1">Lunes a Viernes</h6>
+                        <small class="text-muted">Atención presencial y telefónica</small>
+                      </div>
+                      <div class="text-end">
+                        <span class="badge bg-success fs-6">9:00 - 18:00</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="d-flex justify-content-between align-items-center p-3 bg-light rounded">
+                      <div>
+                        <h6 class="fw-bold text-secondary mb-1">Sábados</h6>
+                        <small class="text-muted">Solo atención telefónica</small>
+                      </div>
+                      <div class="text-end">
+                        <span class="badge bg-warning fs-6">9:00 - 13:00</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="d-flex justify-content-between align-items-center p-3 bg-light rounded">
+                      <div>
+                        <h6 class="fw-bold text-secondary mb-1">Emergencias</h6>
+                        <small class="text-muted">Línea de crisis 24/7</small>
+                      </div>
+                      <div class="text-end">
+                        <span class="badge bg-danger fs-6">24 horas</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Social Media -->
+            <div class="card border-0 shadow-lg">
+              <div class="card-body p-4 text-center">
+                <h5 class="text-primary fw-bold mb-3">
+                  <i class="bi bi-share-fill me-2"></i>Síguenos en redes
+                </h5>
+                <p class="text-muted small mb-4">
+                  Mantente al día con nuestras actividades y logros
+                </p>
+                <div class="d-flex justify-content-center gap-3">
+                  <a href="#" class="btn btn-outline-primary btn-lg rounded-circle" style="width: 60px; height: 60px;">
+                    <i class="bi bi-facebook fs-4"></i>
+                  </a>
+                  <a href="#" class="btn btn-outline-info btn-lg rounded-circle" style="width: 60px; height: 60px;">
+                    <i class="bi bi-twitter fs-4"></i>
+                  </a>
+                  <a href="#" class="btn btn-outline-danger btn-lg rounded-circle" style="width: 60px; height: 60px;">
+                    <i class="bi bi-instagram fs-4"></i>
+                  </a>
+                  <a href="#" class="btn btn-outline-success btn-lg rounded-circle" style="width: 60px; height: 60px;">
+                    <i class="bi bi-whatsapp fs-4"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Call to Action -->
+      <div class="row mt-5">
+        <div class="col-12">
+          <div class="card border-0 bg-primary text-white">
+            <div class="card-body p-5 text-center">
+              <div class="row align-items-center">
+                <div class="col-lg-8">
+                  <h4 class="fw-bold mb-2">¿Listo para ser parte del cambio?</h4>
+                  <p class="mb-0">
+                    Cada conversación es el inicio de una transformación.
+                    Juntos podemos construir comunidades más fuertes y resilientes.
+                  </p>
+                </div>
+                <div class="col-lg-4 mt-3 mt-lg-0">
+                  <button class="btn btn-light btn-lg">
+                    <i class="bi bi-people-fill me-2"></i>Únete a nosotros
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
 
   <!-- Map Footer -->
   <footer class="bg-light py-4">
@@ -181,16 +1041,19 @@
   <!-- Developer Footer -->
   <footer class="bg-dark text-white py-2">
     <div class="container">
-      <div class="row align-items-center">
-        <div class="col-md-8">
+      <div class="row">
+        <div class="col-md-4 text-start">
           <small>
             <i class="bi bi-code-slash me-1"></i>
-            Desarrollado por <strong>Tu Nombre</strong> -
-            <i class="bi bi-envelope me-1"></i>desarrollador@email.com
+            Desarrollado por <strong> LRM@MySelfProductions </strong>
           </small>
         </div>
+        <div class="col-md-4 text-center">
+          <a href="mailto:leoroan+myselfproductions@gmail.com" class="text-white text-decoration-underline">Contacto<i
+              class="bi bi-envelope"></i></a>
+        </div>
         <div class="col-md-4 text-end">
-          <small>© 2024 CLADES. Todos los derechos reservados.</small>
+          <small>© 2025/27 CLAdeES. Todos los derechos reservados.</small>
         </div>
       </div>
     </div>
