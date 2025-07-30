@@ -4,7 +4,7 @@
     "titulo": "Nueva campaña de ayuda alimentaria",
     "descripcion": "Lanzamos una nueva iniciativa para brindar asistencia alimentaria a familias en situación de vulnerabilidad en nuestra comunidad.",
     "fecha": "2024-01-15",
-    "imagen": "/images/novedades/placeholder.svg",
+    "imagen": "images/novedades/placeholder.svg",
     "contenido": "Esta campaña busca llegar a más de 200 familias durante los próximos tres meses, proporcionando alimentos básicos y nutritivos."
   },
   {
@@ -12,7 +12,7 @@
     "titulo": "Taller de capacitación laboral",
     "descripcion": "Iniciamos un programa de capacitación en oficios para jóvenes de la comunidad, enfocado en habilidades técnicas y emprendimiento.",
     "fecha": "2024-01-10",
-    "imagen": "/images/novedades/placeholder.svg",
+    "imagen": "images/novedades/placeholder.svg",
     "contenido": "El taller incluye formación en carpintería, electricidad básica y desarrollo de habilidades blandas para el mundo laboral."
   },
   {
@@ -20,7 +20,7 @@
     "titulo": "Jornada de salud comunitaria",
     "descripcion": "Realizamos una jornada gratuita de atención médica básica y controles preventivos para toda la familia.",
     "fecha": "2024-01-05",
-    "imagen": "/images/novedades/placeholder.svg",
+    "imagen": "images/novedades/placeholder.svg",
     "contenido": "Más de 150 personas recibieron atención médica gratuita, incluyendo controles de presión, glucemia y consultas generales."
   },
   {
@@ -28,7 +28,7 @@
     "titulo": "Programa de apoyo escolar",
     "descripcion": "Lanzamos un nuevo programa de apoyo escolar para niños y adolescentes con dificultades académicas.",
     "fecha": "2023-12-20",
-    "imagen": "/images/novedades/placeholder.svg",
+    "imagen": "images/novedades/placeholder.svg",
     "contenido": "El programa ofrece clases de apoyo en matemáticas, lengua y ciencias, además de actividades recreativas educativas."
   },
   {
@@ -36,7 +36,7 @@
     "titulo": "Construcción de huerta comunitaria",
     "descripcion": "Inauguramos una huerta comunitaria que permitirá a las familias cultivar sus propios alimentos orgánicos.",
     "fecha": "2023-12-15",
-    "imagen": "/images/novedades/placeholder.svg",
+    "imagen": "images/novedades/placeholder.svg",
     "contenido": "La huerta cuenta con 20 parcelas familiares y un área común para cultivos de temporada, promoviendo la alimentación saludable."
   },
   {
@@ -44,7 +44,7 @@
     "titulo": "Celebración del Día del Niño",
     "descripcion": "Organizamos una gran celebración del Día del Niño con actividades recreativas, juegos y regalos para todos los pequeños.",
     "fecha": "2023-12-10",
-    "imagen": "/images/novedades/placeholder.svg",
+    "imagen": "images/novedades/placeholder.svg",
     "contenido": "Más de 300 niños participaron de esta celebración especial con actividades deportivas, talleres de arte y una merienda compartida."
   }
 ]
