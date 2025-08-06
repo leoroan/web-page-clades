@@ -1,22 +1,35 @@
 /* Colores pasteles principales para CLADES */
 :root {
-  --pastel-blue: #2fbbee;
-  --pastel-green: #b8e6b8;
-  --pastel-coral: #ffb3ba;
+  --pastel-orange: #e17a04;
+  --pastel-green: #78d388;
+  --pastel-blue: #34d3ef;
+  --pastel-red: #c13111;
 }
 
 /* Sobrescribir colores primary de Bootstrap */
 .bg-primary {
+  background-color: var(--pastel-orange) !important;
+}
+
+.bg-tertiary {
   background-color: var(--pastel-blue) !important;
 }
 
 .text-primary {
+  color: var(--pastel-orange) !important;
+}
+
+.text-secondary {
+  color: var(--pastel-green) !important;
+}
+
+.text-tertiary {
   color: var(--pastel-blue) !important;
 }
 
 .btn-primary {
-  background-color: var(--pastel-blue) !important;
-  border-color: var(--pastel-blue) !important;
+  background-color: var(--pastel-orange) !important;
+  border-color: var(--pastel-orange) !important;
   color: #333 !important;
 }
 
@@ -27,13 +40,13 @@
 }
 
 .btn-outline-primary {
-  color: var(--pastel-blue) !important;
-  border-color: var(--pastel-blue) !important;
+  color: var(--pastel-orange) !important;
+  border-color: var(--pastel-orange) !important;
 }
 
 .btn-outline-primary:hover {
-  background-color: var(--pastel-blue) !important;
-  border-color: var(--pastel-blue) !important;
+  background-color: var(--pastel-orange) !important;
+  border-color: var(--pastel-orange) !important;
   color: #333 !important;
 }
 
@@ -54,16 +67,16 @@
 
 /* Sobrescribir colores danger/accent */
 .text-danger {
-  color: var(--pastel-coral) !important;
+  color: var(--pastel-blue) !important;
 }
 
 .bg-danger {
-  background-color: var(--pastel-coral) !important;
+  background-color: var(--pastel-red) !important;
 }
 
 /* Enlaces en colores pasteles */
 a {
-  color: var(--pastel-blue) !important;
+  color: var(--pastel-orange) !important;
 }
 
 a:hover {
@@ -72,12 +85,12 @@ a:hover {
 
 /* Navbar active link */
 .navbar-nav .nav-link.active {
-  color: var(--pastel-blue) !important;
+  color: var(--pastel-orange) !important;
 }
 
 /* Form focus states */
 .form-control:focus {
-  border-color: var(--pastel-blue) !important;
+  border-color: var(--pastel-orange) !important;
   box-shadow: 0 0 0 0.2rem rgba(168, 216, 234, 0.25) !important;
 }
 
