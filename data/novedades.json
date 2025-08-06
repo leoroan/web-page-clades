@@ -1,11 +1,12 @@
 [
   {
     "id": 1,
-    "titulo": "Nueva campaña de ayuda alimentaria",
-    "descripcion": "Lanzamos una nueva iniciativa para brindar asistencia alimentaria a familias en situación de vulnerabilidad en nuestra comunidad.",
-    "fecha": "2024-01-15",
-    "imagen": "./images/novedades/placeholder.svg",
-    "contenido": "Esta campaña busca llegar a más de 200 familias durante los próximos tres meses, proporcionando alimentos básicos y nutritivos."
+    "titulo": "Diálogo para discernir en el presente",
+    "descripcion": "Actividad arancelada con certificacion de la UCCuyo, costo total $20.000",
+    "fecha": "2025-08-06",
+    "imagen": "./images/novedades/06082025_novedad.jpg",
+    "contenido": "Haga clic aquí para acceder a la inscripción: https://forms.gle/eHD7fjWQTc2SBnC28",
+    "estiloCss": "style=\"height: 350px; object-fit: cover;\""
   },
   {
     "id": 2,
@@ -58,6 +59,38 @@
   {
     "id": 8,
     "titulo": "Taller de prevención de violencia de género",
+    "descripcion": "Realizamos un taller sobre prevención de violencia de género y promoción de derechos humanos en la comunidad.",
+    "fecha": "2023-11-25",
+    "imagen": "./images/novedades/placeholder.svg",
+    "contenido": "El taller incluyó charlas informativas, dinámicas grupales y recursos para ayudar a las víctimas de violencia."
+  },
+  {
+    "id": 9,
+    "titulo": "Novedad 9",
+    "descripcion": "Realizamos un taller sobre prevención de violencia de género y promoción de derechos humanos en la comunidad.",
+    "fecha": "2023-11-25",
+    "imagen": "./images/novedades/placeholder.svg",
+    "contenido": "El taller incluyó charlas informativas, dinámicas grupales y recursos para ayudar a las víctimas de violencia."
+  },
+  {
+    "id": 10,
+    "titulo": "Novedad 10",
+    "descripcion": "Realizamos un taller sobre prevención de violencia de género y promoción de derechos humanos en la comunidad.",
+    "fecha": "2023-11-25",
+    "imagen": "./images/novedades/placeholder.svg",
+    "contenido": "El taller incluyó charlas informativas, dinámicas grupales y recursos para ayudar a las víctimas de violencia."
+  },
+  {
+    "id": 11,
+    "titulo": "Novedad 11",
+    "descripcion": "Realizamos un taller sobre prevención de violencia de género y promoción de derechos humanos en la comunidad.",
+    "fecha": "2023-11-25",
+    "imagen": "./images/novedades/placeholder.svg",
+    "contenido": "El taller incluyó charlas informativas, dinámicas grupales y recursos para ayudar a las víctimas de violencia."
+  },
+  {
+    "id": 12,
+    "titulo": "Novedad 12",
     "descripcion": "Realizamos un taller sobre prevención de violencia de género y promoción de derechos humanos en la comunidad.",
     "fecha": "2023-11-25",
     "imagen": "./images/novedades/placeholder.svg",

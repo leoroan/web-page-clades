@@ -62,7 +62,9 @@
   <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm border-bottom sticky-top">
     <div class="container">
       <a class="navbar-brand d-flex align-items-center" href="index.html">
-        <i class="bi bi-heart-fill text-danger fs-2 m-2"></i>
+        <!-- <i class="bi bi-heart-fill text-danger fs-2 m-2"></i> -->
+        <img src="./images/institucional/ms-icon-310x310_sin_fondo.png" alt="Logo CLAdeES" class="me-2" width="40"
+          height="40">
         <span class="fw-bold fs-4 text-primary">CLAdeES</span>
       </a>
 
@@ -78,7 +80,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link fw-semibold" href="novedades.html">
+            <a class="nav-link fw-semibold" href="novedades.navl">
               <i class="bi bi-newspaper me-1"></i>Novedades
             </a>
           </li>
@@ -106,16 +108,22 @@
   </section>
 
   <!-- News Grid -->
-  <section class="py-5">
+  <section class="">
+    <hr class="hr-text" data-content="CLAdeEs">
     <div class="container">
-      <div id="newsContainer" class="row g-5">
-        <!-- News cards will be loaded here by JavaScript -->
+      <div id="newsContainer" class="row g-5" tabindex="-1">
+        <!-- News cards will be loaded here -->
+      </div>
+      <!-- Contenedor para la paginación -->
+      <div class="mt-4">
+        <div id="paginationContainer" class="d-flex justify-content-center"></div>
       </div>
     </div>
   </section>
 
   <!-- Contact Form and Info Section -->
-  <section class="py-5 bg-light">
+  <section class="bg-light">
+    <hr class="hr-text" data-content="CLAdeEs">
     <div class="container">
       <!-- Section Header -->
       <div class="row mb-5">
@@ -392,6 +400,24 @@
       </div>
     </div>
   </section>
+
+  <!-- News Modal -->
+  <div class="modal fade" id="newsModal" tabindex="-1" aria-labelledby="newsModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="newsModalLabel">Modal title</h1>
+          <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
+        </div>
+        <div class="modal-body">
+          ... Que vergüenza, no tengo nada para mostrar por ahora ...
+        </div>
+        <div class="modal-footer">
+          <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button> -->
+        </div>
+      </div>
+    </div>
+  </div>
 
   <!-- Map Footer -->
   <footer class="bg-light py-4">
