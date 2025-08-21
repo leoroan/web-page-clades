@@ -130,21 +130,31 @@
               </div>
               <h2 class="card-title text-primary fw-bold mb-4">Un mensaje de la organización</h2>
               <p class="card-text lead text-muted mb-4">
-                En CLAdeES creemos que cada pequeña acción puede generar un gran cambio. Desde hace más de una década,
-                trabajamos junto a comunidades vulnerables para construir un futuro más justo y esperanzador.
+                En CLAdeES creemos que cada pequeña acción puede generar un gran cambio. Por eso, desde hace más de una
+                década trabajamos en la formación y comunicación de formadores y referentes de comunidades para
+                construir un futuro más justo y esperanzador.
+                <br>
+                Nuestro compromiso va más allá de las palabras; es una manera de vivir. Por eso cada integrante lleva a
+                su propio espacio su compromiso social y responsable, mientras construimos juntos los proyectos que
+                emprendemos, nacidos de la escucha atenta y del diálogo fraterno.
+                Porque entendemos que el desarrollo humano integral se construye sinodalmente, unidos en la diversidad.
+
+
               </p>
-              <p class="card-text text-muted mb-">
-                Nuestro compromiso va más allá de las palabras: es acción, es presencia, es acompañamiento.
-                Cada proyecto que emprendemos nace del diálogo con quienes más lo necesitan,
-                porque entendemos que el verdadero desarrollo se construye desde adentro.
-              </p>
+              <!-- <p class="card-text text-muted mb-">
+                Nuestro compromiso va más allá de las palabras; es una manera de vivir. Por eso cada integrante lleva a
+                su propio espacio su compromiso social y responsable, mientras construimos juntos los proyectos que
+                emprendemos, nacidos de la escucha atenta y del diálogo fraterno.
+                Porque entendemos que el desarrollo humano integral se construye sinodalmente, unidos en la diversidad.
+
+              </p> -->
               <div class="d-flex justify-content-center">
-                <button class="btn btn-primary me-3">
-                  <i class="bi bi-people-fill me-2"></i>Conoce nuestro equipo
-                </button>
-                <button class="btn btn-outline-primary">
+                <a href="#team-section" class="btn btn-outline-primary me-3">
+                  <i class="bi bi-people-fill me-2"></i>Conocé quiénes somos
+                </a>
+                <a href="#nuestra-historia" class="btn btn-outline-primary">
                   <i class="bi bi-journal-text me-2"></i>Nuestra historia
-                </button>
+                </a>
               </div>
             </div>
           </div>
@@ -153,9 +163,9 @@
 
       <hr class="hr-text" data-content="CLAdeES">
       <!-- Values Cards -->
-      <div class="row g-4">
+      <div class="row g-4 py-2">
         <div class="col-md-4">
-          <div class="card h-100 border-0 shadow-sm">
+          <div class="card h-100 border-1 shadow-sm">
             <div class="card-body text-center p-4">
               <div class="mb-3">
                 <i class="bi bi-hand-thumbs-up-fill text-success display-5"></i>
@@ -170,7 +180,7 @@
         </div>
 
         <div class="col-md-4">
-          <div class="card h-100 border-0 shadow-sm">
+          <div class="card h-100 border-1 shadow-sm">
             <div class="card-body text-center p-4">
               <div class="mb-3">
                 <i class="bi bi-people-fill text-primary display-5"></i>
@@ -185,7 +195,7 @@
         </div>
 
         <div class="col-md-4">
-          <div class="card h-100 border-0 shadow-sm">
+          <div class="card h-100 border-1 shadow-sm">
             <div class="card-body text-center p-4">
               <div class="mb-3">
                 <i class="bi bi-lightbulb-fill text-warning display-5"></i>
@@ -203,7 +213,7 @@
   </section>
 
   <!-- About Us Section -->
-  <section class="bg-white">
+  <section class="bg-white" id="nuestra-historia">
     <hr class="hr-text" data-content="CLAdeES">
     <div class="container">
       <div class="row mb-5">
@@ -218,8 +228,27 @@
 
       <div class="row align-items-center mb-5">
         <div class="col-lg-6 mb-4">
-          <img src="/placeholder.svg?height=400&width=600&text=Equipo+CLADES+trabajando"
-            class="img-fluid rounded shadow" alt="Equipo de CLADES trabajando">
+
+          <!-- Carrousel de historias -->
+          <div id="historyCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2500">
+            <div class="carousel-inner rounded shadow">
+              <div class="carousel-item active">
+                <img src="/images/institucional/Historia/Conferencia_inaugural_2014.JPG" class="d-block w-100"
+                  alt="Equipo de CLADES en la conferencia inaugural 2014">
+                <div class="carousel-caption d-block bg-dark bg-opacity-50 rounded p-2">
+                  <small>Conferencia inaugural de CLADES, 2014</small>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="/images/institucional/Historia/encuentro_2025.JPEG" class="d-block w-100"
+                  alt="Encuentro CLADES 2025">
+                <div class="carousel-caption d-block bg-dark bg-opacity-50 rounded p-2">
+                  <small>Encuentro CLADES, 2025</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
         </div>
         <div class="col-lg-6">
           <h3 class="text-primary fw-bold mb-4">Nuestra historia</h3>
@@ -241,12 +270,12 @@
                 <small class="text-muted">Familias acompañadas</small>
               </div> -->
             </div>
-            <div class="col-6">
+            <!-- <div class="col-6">
               <div class="text-center p-3 bg-light rounded">
                 <h4 class="text-primary fw-bold mb-1">25</h4>
                 <small class="text-muted">Proyectos realizados</small>
               </div>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
@@ -254,8 +283,26 @@
       <div class="row align-items-center mb-4">
         <hr class="hr-text" data-content="CLAdeES">
         <div class="col-lg-6 order-lg-2 mb-4">
-          <img src="/placeholder.svg?height=400&width=600&text=Misión+y+Visión+CLADES" class="img-fluid rounded shadow"
-            alt="Misión y visión de CLADES">
+
+          <!-- Carrousel de mision y vision -->
+          <div id="historyCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2500">
+            <div class="carousel-inner rounded shadow">
+              <div class="carousel-item active">
+                <img src="/images/institucional/Historia/Conferencia_inaugural_2014.JPG" class="d-block w-100"
+                  alt="Equipo de CLADES en la conferencia inaugural 2014">
+                <div class="carousel-caption d-block bg-dark bg-opacity-50 rounded p-2">
+                  <small>Conferencia inaugural de CLADES, 2014</small>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="/images/institucional/Historia/encuentro_2025.JPEG" class="d-block w-100"
+                  alt="Encuentro CLADES 2025">
+                <div class="carousel-caption d-block bg-dark bg-opacity-50 rounded p-2">
+                  <small>Encuentro CLADES, 2025</small>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
         <div class="col-lg-6 order-lg-1">
           <h3 class="text-primary fw-bold mb-4">Misión y Visión</h3>
@@ -264,9 +311,8 @@
               <i class="bi bi-bullseye text-danger me-2"></i>Nuestra Misión
             </h5>
             <p class="text-muted">
-              Promover el desarrollo integral de comunidades vulnerables a través de programas
-              educativos, de salud y desarrollo económico, fortaleciendo las capacidades locales
-              y generando oportunidades de crecimiento sostenible.
+              Convertirnos en Centro de Estudios especializado en el Pensamiento Social de la Iglesia y de referencia
+              para toda la comunidad latinoamericana.
             </p>
           </div>
           <div class="mb-4">
@@ -274,9 +320,9 @@
               <i class="bi bi-eye-fill text-primary me-2"></i>Nuestra Visión
             </h5>
             <p class="text-muted">
-              Ser una organización referente en el desarrollo comunitario, reconocida por su
-              impacto positivo, transparencia y capacidad de generar cambios duraderos en la
-              vida de las personas y comunidades que acompañamos.
+              Incidir y co-incidir con otros en la transformación de las realidades, para que se configure una sociedad
+              justa y equitativa, donde se vivan los valores de la fraternidad, la solidaridad
+              y la participación.
             </p>
           </div>
         </div>
@@ -285,17 +331,57 @@
       <hr class="hr-text" data-content="CLAdeES">
 
       <!-- Team Cards -->
-      <div class="row mb-5">
-        <div class="col-12 text-center mb-4">
-          <h3 class="text-primary fw-bold">Nuestro equipo directivo</h3>
-          <p class="text-muted">Las personas que lideran nuestros proyectos y programas</p>
+      <div class="row" id="team-section">
+        <div class="col-12 text-center mb-2">
+          <h3 class="text-primary fw-bold">Nuestro equipo</h3>
+          <p class="text-muted">Las personas que llevan adelante nuestros proyectos y programas</p>
         </div>
       </div>
 
-      <div class="row g-4">
+      <!-- Carousel del equipo-->
+      <div class="row mb-2 justify-content-center">
+        <div class="col-md-8 col-lg-6">
+          <div id="miniTeamCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2500">
+            <div class="carousel-inner rounded shadow-sm">
+
+              <div class="carousel-item active mb-5">
+                <div class="d-flex flex-column align-items-center">
+                  <img src="/images/institucional/del equipo/equipo_agosto_2024_varela.jpeg" class="mb-3 shadow rounded" style="width:300px; height:300px; object-fit:cover; border-radius:20px;" alt="Equipo CLADES Fcio. Varela 2024">
+                  <h6 class="text-primary fw-bold mb-1">El equipo en Fcio. Varela Agosto de 2025</h6>
+                  <!-- <p class="text-muted small text-center mb-0">Voluntaria en programas educativos. Apasionada por la
+                    inclusión social y la formación de jóvenes.</p> -->
+                </div>
+              </div>
+
+              <!-- <div class="carousel-item">
+                <div class="d-flex flex-column align-items-center p-4">
+                  <img src="/placeholder.svg?height=80&width=80&text=Javier+Ruiz" class="rounded-circle mb-3" width="80"
+                    height="80" alt="Javier Ruiz">
+                  <h6 class="text-primary fw-bold mb-1">Javier Ruiz</h6>
+                  <p class="text-muted small text-center mb-0">Especialista en gestión de alianzas. Facilita la
+                    cooperación con organizaciones externas.</p>
+                </div>
+              </div> -->
+
+              <!-- <div class="carousel-item">
+                <div class="d-flex flex-column align-items-center p-4">
+                  <img src="/placeholder.svg?height=80&width=80&text=Florencia+Martínez" class="rounded-circle mb-3"
+                    width="80" height="80" alt="Florencia Martínez">
+                  <h6 class="text-primary fw-bold mb-1">Florencia Martínez</h6>
+                  <p class="text-muted small text-center mb-0">Responsable de voluntariado. Coordina actividades y
+                    acompaña a nuevos integrantes.</p>
+                </div>
+              </div> -->
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- <div class="row g-4">
         <div class="col-lg-4 col-md-6">
           <div class="card border-0 shadow-sm text-center">
-            <div class="card-body p-4">
+            <div class="card-body p-2">
               <div class="mb-3">
                 <img src="/placeholder.svg?height=120&width=120&text=María+González" class="rounded-circle" width="120"
                   height="120" alt="María González">
@@ -355,15 +441,16 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
+      
     </div>
   </section>
 
   <!-- Institutional Section -->
   <!-- <section class="py-2 bg-light"> -->
-    <!-- <hr class="hr-text" data-content="CLAdeES">
+  <!-- <hr class="hr-text" data-content="CLAdeES">
     <div class="container"> -->
-      <!-- <div class="row mb-5">
+  <!-- <div class="row mb-5">
         <div class="col-12 text-center">
           <h2 class="display-5 fw-bold text-primary mb-3">
             <i class="bi bi-building me-3"></i>Institucional
@@ -372,8 +459,8 @@
         </div>
       </div> -->
 
-      <!-- Legal Information -->
-      <!-- <div class="row mb-5">
+  <!-- Legal Information -->
+  <!-- <div class="row mb-5">
         <div class="col-lg-6 mb-4">
           <div class="card border-0 shadow-sm h-100">
             <div class="card-body p-4">
@@ -444,15 +531,15 @@
         </div>
       </div> -->
 
-      <!-- Governance Structure -->
-      <!-- <div class="row mb-5">
+  <!-- Governance Structure -->
+  <!-- <div class="row mb-5">
         <div class="col-12 mb-4">
           <h3 class="text-primary fw-bold text-center">Estructura de Gobierno</h3>
           <p class="text-muted text-center">Órganos de dirección y control de la organización</p>
         </div>
       </div> -->
 
-      <!-- <div class="row g-4 mb-5">
+  <!-- <div class="row g-4 mb-5">
         <div class="col-lg-4">
           <div class="card border-0 shadow-sm text-center h-100">
             <div class="card-body p-4">
@@ -512,8 +599,8 @@
         </div>
       </div> -->
 
-      <!-- Documents and Reports -->
-      <!-- <div class="row">
+  <!-- Documents and Reports -->
+  <!-- <div class="row">
         <hr class="hr-text" data-content="CLAdeES">
         <div class="col-12 mb-4">
           <h3 class="text-primary fw-bold text-center">Documentos y Reportes</h3>
@@ -594,24 +681,73 @@
           <h2 class="display-5 fw-bold text-primary mb-3">
             <i class="bi bi-handshake me-3"></i>Nuestras Alianzas
           </h2>
-          <p class="lead text-muted">Trabajamos junto a organizaciones que comparten nuestra visión de desarrollo
-            comunitario</p>
+          <p class="lead text-muted">Con nuestros Movimientos de Iglesia formantes</p>
         </div>
       </div>
 
+      <!-- Partnership Types -->
+      <div class="row g-4 pt-2 justify-content-center">
+
+        <div class="col-md-6 col-lg-3">
+          <div class="card border-1 shadow-sm text-center h-100 px-3">
+            <div class="card-body p-4">
+              <div class="">
+                <!-- <i class="bi bi-cash-coin text-success display-4"></i> -->
+                <img src="./images/alianzas/focolare_spagnolo_RGB.jpg" alt="Logo de Focolares" class=""
+                  style="width:100px; height:100px;">
+              </div>
+              <!-- <h5 class="text-primary fw-bold">Focolares</h5> -->
+            </div>
+            <p class="text-muted small">
+              Movimiento de Focolares.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+          <div class="card border-1 shadow-sm text-center h-100">
+            <div class="card-body p-4">
+              <div class="mb-3">
+                <img src="./images/alianzas/Logo MPD.jpg" alt="Logo de MPD" class="" style="width:100px; height:auto;">
+              </div>
+              <!-- <h5 class="text-primary fw-bold">Palabra de Dios</h5> -->
+            </div>
+            <p class="text-muted small">
+              Palabra de Dios
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+          <div class="card border-1 shadow-sm text-center h-100">
+            <div class="card-body p-4">
+              <div class="mb-3">
+                <img src="./images/alianzas/Schoenstatt_logo.png" alt="Logo de Schoenstatt" class=""
+                  style="width:200px; height:auto;">
+              </div>
+              <!-- <h5 class="text-primary fw-bold">Schoenstatt</h5> -->
+            </div>
+            <p class="text-muted small">
+              Schoenstatt
+            </p>
+          </div>
+        </div>
+
+      </div>
+
       <!-- Partners Carousel -->
-      <div class="row mb-5">
+      <!-- <div class="row m-5">
         <div class="col-12">
           <div id="partnersCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
             <div class="carousel-inner">
-              <!-- Slide 1 -->
+
               <div class="carousel-item active">
                 <div class="row g-4 justify-content-center align-items-center">
                   <div class="col-6 col-md-3 text-center">
                     <div class="p-4">
-                      <i class="bi bi-bank2 text-primary display-4 mb-3"></i>
-                      <h6 class="text-primary fw-bold">Banco Nacional</h6>
-                      <small class="text-muted">Financiamiento de proyectos</small>
+                      <i class="bi bi-hospital text-success display-4 mb-3"></i>
+                      <h6 class="text-primary fw-bold">asd</h6>
+                      <small class="text-muted">Movimiento asd</small>
                     </div>
                   </div>
                   <div class="col-6 col-md-3 text-center">
@@ -638,7 +774,6 @@
                 </div>
               </div>
 
-              <!-- Slide 2 -->
               <div class="carousel-item">
                 <div class="row g-4 justify-content-center align-items-center">
                   <div class="col-6 col-md-3 text-center">
@@ -672,7 +807,6 @@
                 </div>
               </div>
 
-              <!-- Slide 3 -->
               <div class="carousel-item">
                 <div class="row g-4 justify-content-center align-items-center">
                   <div class="col-6 col-md-3 text-center">
@@ -707,7 +841,6 @@
               </div>
             </div>
 
-            <!-- Carousel Controls -->
             <button class="carousel-control-prev" type="button" data-bs-target="#partnersCarousel" data-bs-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Anterior</span>
@@ -717,7 +850,6 @@
               <span class="visually-hidden">Siguiente</span>
             </button>
 
-            <!-- Carousel Indicators -->
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#partnersCarousel" data-bs-slide-to="0" class="active"></button>
               <button type="button" data-bs-target="#partnersCarousel" data-bs-slide-to="1"></button>
@@ -725,71 +857,15 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
 
-      <!-- Partnership Types -->
-      <div class="row g-4 border-top pt-2">
-        <div class="col-md-6 col-lg-3">
-          <div class="card border-0 shadow-sm text-center h-100">
-            <div class="card-body p-4">
-              <div class="mb-3">
-                <i class="bi bi-cash-coin text-success display-4"></i>
-              </div>
-              <h5 class="text-primary fw-bold">Alianzas Financieras</h5>
-              <p class="text-muted small">
-                Instituciones que nos apoyan económicamente para el desarrollo de nuestros proyectos comunitarios.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-6 col-lg-3">
-          <div class="card border-0 shadow-sm text-center h-100">
-            <div class="card-body p-4">
-              <div class="mb-3">
-                <i class="bi bi-people-fill text-primary display-4"></i>
-              </div>
-              <h5 class="text-primary fw-bold">Alianzas Estratégicas</h5>
-              <p class="text-muted small">
-                Organizaciones con las que compartimos recursos, conocimientos y experiencias para mayor impacto.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-6 col-lg-3">
-          <div class="card border-0 shadow-sm text-center h-100">
-            <div class="card-body p-4">
-              <div class="mb-3">
-                <i class="bi bi-gear-fill text-warning display-4"></i>
-              </div>
-              <h5 class="text-primary fw-bold">Alianzas Técnicas</h5>
-              <p class="text-muted small">
-                Socios que nos brindan expertise técnico, capacitación y herramientas especializadas.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-6 col-lg-3">
-          <div class="card border-0 shadow-sm text-center h-100">
-            <div class="card-body p-4">
-              <div class="mb-3">
-                <i class="bi bi-heart-fill text-danger display-4"></i>
-              </div>
-              <h5 class="text-primary fw-bold">Alianzas Sociales</h5>
-              <p class="text-muted small">
-                Redes comunitarias y organizaciones de base que fortalecen nuestro trabajo territorial.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
   </section>
 
+
   <!-- Contact Form and Info Section -->
-  <section class="py-5 bg-light">
+  <section class="py-1 bg-light">
+    <hr class="hr-text" data-content="CLAdeES">
     <div class="container">
       <!-- Section Header -->
       <div class="row mb-5">
@@ -896,7 +972,7 @@
             <div class="card border-0 shadow-lg mb-4">
               <div class="card-body p-4">
                 <h4 class="text-primary fw-bold mb-4">
-                  <i class="bi bi-geo-alt-fill me-2"></i>Encuéntranos
+                  <i class="bi bi-geo-alt-fill me-2"></i>Encontranos
                 </h4>
 
                 <div class="mb-4 p-3 bg-light rounded">
@@ -1013,15 +1089,19 @@
             <div class="card border-0 shadow-lg">
               <div class="card-body p-4 text-center">
                 <h5 class="text-primary fw-bold mb-3">
-                  <i class="bi bi-share-fill me-2"></i>Síguenos en redes
+                  <i class="bi bi-share-fill me-2"></i>Seguinos en redes
                 </h5>
                 <p class="text-muted small mb-4">
-                  Mantente al día con nuestras actividades y logros
+                  Mantenete al día con nuestras actividades y logros
                 </p>
                 <div class="d-flex justify-content-center gap-3">
                   <a href="https://www.facebook.com/profile.php?id=61566036521140&mibextid=ZbWKwL" target="_blank"
                     class="btn btn-outline-primary btn-lg rounded-circle" style="width: 60px; height: 60px;">
-                    <i class="bi bi-facebook fs-4"></i>
+                    <i class="bi bi-facebook text-black fs-4"></i>
+                  </a>
+                  <a href="https://www.facebook.com/profile.php?id=61566530635789" target="_blank"
+                    class="btn btn-outline-primary btn-lg rounded-circle" style="width: 60px; height: 60px;">
+                    <i class="bi bi-facebook fs-4 text-secondary"></i>
                   </a>
                   <!-- <a href="#" target="_blank" class="btn btn-outline-info btn-lg rounded-circle" style="width: 60px; height: 60px;">
                     <i class="bi bi-twitter fs-4"></i>
@@ -1030,10 +1110,10 @@
                     class="btn btn-outline-danger btn-lg rounded-circle" style="width: 60px; height: 60px;">
                     <i class="bi bi-instagram fs-4"></i>
                   </a>
-                  <a href="#" class="btn btn-outline-success btn-lg rounded-circle" target="_blank"
+                  <!-- <a href="#" class="btn btn-outline-success btn-lg rounded-circle" target="_blank"
                     style="width: 60px; height: 60px;">
                     <i class="bi bi-whatsapp fs-4"></i>
-                  </a>
+                  </a> -->
                 </div>
               </div>
             </div>
@@ -1056,7 +1136,7 @@
                 </div>
                 <div class="col-lg-4 mt-3 mt-lg-0">
                   <button class="btn btn-light btn-lg">
-                    <i class="bi bi-people-fill me-2"></i>Únete a nosotros
+                    <i class="bi bi-envelope-fill me-2"></i>Contactanos
                   </button>
                 </div>
               </div>
