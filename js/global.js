@@ -27,25 +27,13 @@ document.addEventListener("DOMContentLoaded", () => {
   const forms = document.querySelectorAll("form")
   forms.forEach((form) => {
     form.addEventListener("submit", (e) => {
-      e.preventDefault()
+      // ⚠️ No uses e.preventDefault() aquí
 
-      // Show success message (you can customize this)
       const submitButton = form.querySelector('button[type="submit"]')
-      const originalText = submitButton.innerHTML
 
-      submitButton.innerHTML = '<i class="bi bi-check-circle-fill me-2"></i>Mensaje enviado'
-      submitButton.classList.remove("btn-primary")
-      submitButton.classList.add("btn-success")
+      // Opcional: cambia el texto mientras se envía (el usuario no lo verá si redirige)
+      submitButton.innerHTML = '<i class="bi bi-send-fill me-2"></i>Enviando...'
       submitButton.disabled = true
-
-      // Reset form after 3 seconds
-      setTimeout(() => {
-        form.reset()
-        submitButton.innerHTML = originalText
-        submitButton.classList.remove("btn-success")
-        submitButton.classList.add("btn-primary")
-        submitButton.disabled = false
-      }, 3000)
     })
   })
 

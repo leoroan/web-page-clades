@@ -2,7 +2,7 @@
 
 document.addEventListener("DOMContentLoaded", () => {
   // Add any home-specific functionality here
-  console.log("Home page loaded")
+  // console.log("Home page loaded")
 
   // Example: Add animation to hero section
   const heroSection = document.querySelector(".bg-light.py-5")
