@@ -95,21 +95,20 @@ document.addEventListener("DOMContentLoaded", async () => {
     return;
   }
 
-  // ✅ Intentar usar caché SIEMPRE primero
+  // ✅ Intentar usar caché solo si está dentro del tiempo permitido
   const cachedData = localStorage.getItem(CACHE_KEY);
   if (cachedData) {
     try {
       const { data, timestamp } = JSON.parse(cachedData);
-      // Si hay data y es un array con al menos un elemento, mostrar sin esperar
-      if (Array.isArray(data) && data.length > 0) {
-      renderTable(data);
-      return; // ✅ Mostrar datos inmediatamente, sin countdown
+      // Usar caché solo si no ha expirado
+      if (Date.now() - timestamp < CACHE_DURATION && Array.isArray(data) && data.length > 0) {
+        renderTable(data);
+        showCacheCountdown();
+        return; // ✅ No hacer fetch, usar caché
       }
-      // Si no hay data válida, seguir con lógica de caché normal
-      if (Date.now() - timestamp < CACHE_DURATION) {
-      renderTable(data);
-      showCacheCountdown();
-      return; // ✅ No hacer fetch, usar caché
+      // Si el caché está vencido, eliminarlo
+      if (Date.now() - timestamp >= CACHE_DURATION) {
+        localStorage.removeItem(CACHE_KEY);
       }
     } catch (e) {
       console.warn("Caché corrupto, limpiando...");
@@ -130,7 +129,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     const result = await response.json();
 
     // ✅ Caso 1: Estamos en rate limit (ej: 22h)
-    // ✅ Caso 1: Estamos en rate limit (horas o minutos)
+    // ✅ Caso 1: Estamos en rate limit (ej: 22h)
     if (!result.success && result.message && result.message.includes("try again in")) {
       let totalMinutes = 60; // fallback: 1 hora
 
@@ -168,9 +167,14 @@ document.addEventListener("DOMContentLoaded", async () => {
       return;
     }
 
-    // ❌ Caso 3: Otra respuesta inesperada
-    throw new Error("Respuesta inválida");
+    // ✅ Caso 3: Sin mensajes pero success true
+    if (result.success && Array.isArray(result.submissions) && result.submissions.length === 0) {
+      renderTable([]);
+      return;
+    }
 
+    // ❌ Caso 4: Otra respuesta inesperada
+    throw new Error("Respuesta inválida");
   } catch (error) {
     console.error("Error al conectar con API:", error);
 
