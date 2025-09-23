@@ -1,30 +1,87 @@
 [
   {
     "id": 1,
-    "title": "Conferencias inaugurales",
+    "title": "Conferencias inaugurales  (presenciales y a distancia) ",
     "body": [
-      "Conferencia inaugural en el Congreso Internacional de Historia Ambiental, Universidad Nacional de La Plata, Argentina",
-      "Historia ambiental y estudios del Antropoceno: perspectivas desde América Latina"
+      "Conferencia inaugural 2014 - “La teología argentina del pueblo y la pastoral del Papa Francisco” a cargo del P. Juan Carlos Scannone y “El panorama de la Iglesia en América Latina y el mundo” por la Dra, Susana Nuin Nuñez",
+      "Conferencia Inaugural 2015: se llevaron a cabo dos conferencias, una a cargo de la Teóloga brasileña Dra. María Clara Bingemer “¿Qué Iglesia y para qué mundo? A dos años del Pontificado del Papa Francisco” y la otra  con la participación de la Secretaria del Departamento de Comunicación del CELAM la Dra. y Mgter. en DSI Susana Nuin Nuñez.",
+      "Conferencia inaugural 2016 - “La Dimensión social de la Misericordia” a cargo del P. Obispo Jorge Lozano.",
+      "Conferencia Inaugural 2017 - ”50 años de la  Populorum Progressio: el desafío vigente de la Paz y el Desarrollo”. A cargo de Monseñor Enrique Eguía Seguí, Obispo Auxiliar de Buenos Aires, del Dr. Daniel Ramada Piendibene embajador del Uruguay ante la Santa Sede (2011-2015); y la economista Cristina Calvo, Directora del Programa Internacional Democracia, Sociedad y Nuevas Economías del Rectorado de la UBA.",
+      "Conferencia inaugural 2018 - ”Medellín, 50 años después ¿Una Iglesia y una sociedad más comprometidas con los Pobres?” a cargo del Pbro. Dr Juan Carlos Scannone SJ (Filósofo y Teólogo, especialista en la Enseñanza Social de la Iglesia), del Pbro. Jorge Techera (CEDIDOSC y ex Director de Cáritas Uruguay) y la Dra. Susana Nuin (Instituto Universitario Sophia América Latina y el Caribe).",
+      "Se organizan con Pastoral Social La Plata los “Diálogos para discernir la realidad”.",
+      "2024 Conferencia inaugural: “¿Es posible… con Jorge García Cuerva, arzobispo de Buenos Aires, y la rabina Silvia Chemen.",
+      "2025 Encuentro “La dimensión social de la Esperanza” en el marco del jubileo de la Esperanza."
     ]
   },
   {
     "id": 2,
-    "title": "Charlas, participación en congresos",
-    "body": "somethig to say"
+    "title": "Charlas, participación en Congresos y Conversatorios",
+    "body": [
+      { "text": "Participación en Medellín - Colombia: del 20 al 26 de octubre de 2014 en el XVIII Congreso de Cáritas Latinoamérica  y el Caribe.", "img": "../images/institucional/Historia/bogota_colombia_2014.png" },
+      "Participación en la Jornada Latinoamericana de Pensamiento Social de la Iglesia: en Punta de Tralca, Chile, organizada por la Red LAPSI, con motivo de los 50 años de la promulgación de la Constitución Pastoral Gaudium et Spes.",
+      "Charla abierta sobre “Laudato Si”, «Cuidar la “Casa Común”- Una invitación a la conversión personal, social y ambiental», a cargo del Dr. en Ciencias Físicas Pablo Canziani, asesor del Papa Francisco.",
+      "Organización del Coloquio abierto “Mirando con el Papa Francisco la Iglesia y el mundo de hoy” y Acto de colación de Egresados ciclo 2015.",
+      "Participación en el I° Congreso Latinoamericano de Ética Teológica que tuvo como lema “Hacia una Ética de participación y Esperanza” desarrollado en la Pontificia Univ. Javeriana de Bogotá.",
+      "Participación y auspicio del encuentro formativo realizado en la ciudad de Montevideo en el marco de la celebración de los 500 años de la publicación de Utopía, de Santo Tomás Moro.",
+      "Participación en el “II Congreso Internacional de Doctrina Social de la Iglesia” en la ciudad de San Pablo, Brasil, organizado por la Universidad Salesiana de San Pablo (UNISAL) y la Pontificia Universidad Católica de San Pablo (PUC-SP).",
+      "Conferencia en Montevideo conmemorando los dos años de la encíclica “Laudato Si” a cargo el Prof. Mg. Pablo A. Blanco, docente UCA, UBA y UNLP, y miembro del Consejo Ejecutivo del CLAdeES.",
+      "Promoción y participación del Seminario sobre Ecología Integral para el Cono Sur, conmemorando el 2do, aniversario de la encíclica “Laudato Si’’, organizado por el Centro Bíblico, Teológico, Pastoral para América Latina y El Caribe del CELAM (Cebitepal) y la Pontificia Universidad Católica Argentina (UCA).",
+      "Organización y participación del Encuentro de Centros de Doctrina Social de la Iglesia (CDSI) convocado la Escuela Social del Consejo Episcopal Latinoamericano (CELAM), con el apoyo de la Red Latinoamericana de Pensamiento Social de la Iglesia (REDLAPSI). El tema fue ‘La revolución contemporánea del saber: una transformación multidimensional’."
+    ]
   },
   {
     "id": 3,
-    "title": "Cursos",
-    "body": ""
+    "title": "Cursos de PSI en Seminarios",
+    "body": [
+      "Curso de formación en DSI para Seminaristas de Schönstatt. Fcio. Varela",
+      "Curso de formación en DSI para Seminaristas de la Arquidiócesis de Mercedes-Luján."
+    ]
   },
   {
     "id": 4,
-    "title": "Consultorías",
-    "body": ""
+    "title": "Cursos a distancia, para Cebitepal (CELAM)",
+    "body": [
+      { "text": "Desarrollo del curso virtual, con alcance latinoamericano, sobre “Evangelii Gaudium", "img": "../images/institucional/Historia/Evangelii_Gaudium.png" },
+      "Curso para CELAM: La Doctrina Social de la Iglesia y su vínculo con Tata Vasco",
+      "Curso “Narrativas emancipadoras” para CELAM.",
+      "Curso para la Federación de Familias de Schoenstatt."
+    ]
   },
   {
     "id": 5,
+    "title": "Cursos presenciales",
+    "body": [
+      "Cursos anuales de Enseñanza Social de la Iglesia: en Río Tercero (Córdoba), City Bell (La Plata) y en la Parroquia Santa María, de la Ciudad Autónoma de Buenos Aires.",
+      "Curso anual de formación sobre Enseñanza Social de la Iglesia para la Asociación Civil “María Construye” del Movimiento de Schönstatt de Villa Warcalde en Córdoba",
+      "Proyecto para la inserción de jóvenes en la Mariápolis Lía. Con UNNOBA"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Consultorías",
+    "body": [
+      "Integrantes del Consejo Asesor del MLS Argentina"
+    ]
+  },
+  {
+    "id": 7,
     "title": "Publicación de libros",
-    "body": ""
+    "body": [
+      "Presentación de Amoris Laetitia en el marco de la Jornada Abierta de Familias en la Villa Marista de Luján.",
+      "Participación en la Asamblea de la RedLapsi - Red Latinoamericana de Pensamiento Social de la Iglesia - realizada en México, junto con siete institutos relacionados con la Doctrina Social de la Iglesia de México, Perú, Brasil, Chile, Haití, Honduras, Uruguay y tres de Argentina.",
+      "Asimismo, el CLAdeES trabaja en la construcción y fortalecimiento de redes entramándose con otras instituciones de América Latina, como son:",
+      "REDLAPSI - en oportunidad de la VI Asamblea reunida en Sao Paulo, Brasil; el 4 de octubre de 2016 el CLAdeES es incorporado como miembro de la REDLAPSI – Red latinoamericana y Caribeña de Pensamiento Social de la Iglesia.",
+      "REICOSUR – el CLAdeES es miembro fundador de la REICOSUR - Red Ecológica Integral del Cono Sur – Acuífero Guaraní. Del 17 al 19 de mayo de 2017 en Buenos Aires convocados por la Escuela Social del Consejo Episcopal Latinoamericano (CELAM), representantes de Centros de Pensamiento Social de la Iglesia del Cono Sur (Argentina, Chile, Paraguay y Uruguay) y de dos países de la región Andina (Bolivia y Perú), se movilizan interpelados por la Carta Encíclica Laudato Si’, sobre el cuidado de la ‘casa común’, ante el imperativo de una ecología integral que recupere los aprendizajes vitales de nuestros pueblos, en el marco de la unidad latinoamericana.",
+      "2023",
+      "Curso para CELAM de DSI y su vínculo con Tata Vasco",
+      "Presentación del libro de Gustavo Vivona en Buenos Aires y Córdoba",
+      "Inicio de las conversaciones preparatorias para el Máster con la UCCUyo",
+      "Curso de Narrativas emancipadoras para CELAM",
+      "Asesorías para MLS",
+      "Cierre y apertura del.",
+      "2025",
+      "Presencia en redes y desarrollo de la página web",
+      "Pablo Blanco quedó a cargo de la cátedra de Pensamiento Social de la Iglesia (UNNOBA)."
+    ]
   }
 ]

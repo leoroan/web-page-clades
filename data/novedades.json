@@ -1,6 +1,15 @@
 [
   {
     "id": 1,
+    "titulo": "Convenio entre SEPLAI y CLAdeES para aportar 3 de los Conversatorios para su proceso de formación de los integrantes.",
+    "descripcion": "Actividad arancelada con certificacion de la UCCuyo, costo total $20.000",
+    "fecha": "2025-08-06",
+    "imagen": "./images/novedades/06082025_novedad.jpg",
+    "contenido": "Haga clic aquí para acceder a la inscripción: https://forms.gle/eHD7fjWQTc2SBnC28",
+    "estiloCss": "style=\"height: 350px; object-fit: cover;\""
+  },
+  {
+    "id": 2,
     "titulo": "Diálogo para discernir en el presente",
     "descripcion": "Actividad arancelada con certificacion de la UCCuyo, costo total $20.000",
     "fecha": "2025-08-06",
