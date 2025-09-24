@@ -139,3 +139,7 @@ a:hover {
     background-color: #fcfcfa;
   }
 }
+  /* Carousel: altura fija para evitar movimiento de indicadores */
+  .carousel-item {
+    min-height: 500px; /* Ajusta el valor según tu diseño */
+  }
