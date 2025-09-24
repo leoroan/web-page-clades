@@ -140,6 +140,6 @@ a:hover {
   }
 }
   /* Carousel: altura fija para evitar movimiento de indicadores */
-  .carousel-item {
+  .carousel-item-team-cards {
     min-height: 500px; /* Ajusta el valor según tu diseño */
   }
