@@ -16,5 +16,14 @@
     "imagen": "./images/novedades/06082025_novedad.jpg",
     "contenido": "Haga clic aquí para acceder a la inscripción: https://forms.gle/eHD7fjWQTc2SBnC28",
     "estiloCss": "style=\"height: 350px; object-fit: cover;\""
+  },
+  {
+    "id": 3,
+    "titulo": "Presentamos las nuevas carreras",
+    "descripcion": "A partir de marzo de 2026 abrirán nuestras carreras de Diplomatura y Maestría en Pensamiento Social de la Iglesia, ambas preparadas de manera conjunta con la UC de Cuyo. Para solicitar información ingresá a leer más.",
+    "fecha": "2025-12-04",
+    "imagen": "./images/novedades/flyer_carreras_con_uc_cuyo.jpeg",
+    "contenido": "Para acceder a la admisión: https://forms.gle/izp89ZXhr3wDauDc9",
+    "estiloCss": "style=\"height: 350px; object-fit: cover;\""
   }
 ]

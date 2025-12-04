@@ -8,13 +8,28 @@ const itemsPerPage = 10;
 let allNews = [];
 
 function formatDate(dateString) {
-  const date = new Date(dateString)
+  if (!dateString) return "";
+
+  // Intentar parsear YYYY-MM-DD sin zona horaria para evitar desplazamientos por UTC
+  const match = dateString.match(/^(\d{4})-(\d{2})-(\d{2})/);
+  let date;
+  if (match) {
+    const year = Number(match[1]);
+    const month = Number(match[2]) - 1; // monthIndex 0-11
+    const day = Number(match[3]);
+    date = new Date(year, month, day);
+  } else {
+    date = new Date(dateString);
+  }
+
+  if (isNaN(date.getTime())) return dateString; // fallback si es inválida
+
   const options = {
     year: "numeric",
     month: "long",
     day: "numeric",
-  }
-  return date.toLocaleDateString("es-ES", options)
+  };
+  return date.toLocaleDateString("es-AR", options);
 }
 
 async function loadNews() {
