@@ -153,26 +153,62 @@ window.changePage = function (page) {
   }
 };
 
+// function createNewsCard(news) {
+//   const col = document.createElement("div");
+//   col.className = "col-lg-4 col-md-6 col-sm-12 col-12";
+
+//   const formattedDate = formatDate(news.fecha);
+
+//   col.innerHTML = `
+//         <div class="h-100 bg-white rounded shadow overflow-hidden border p-1">
+//             <img src="${news.imagen}" class="card-img-top" ${news.estiloCss ? news.estiloCss : "style=\"height: 250px; object-fit: cover;\""} alt="${news.titulo}">
+//             <div class="card-body p-3">
+//                 <div class="text-end mb-3">
+//                     <i class="bi bi-calendar-event text-primary me-2">
+//                     <small class="text-muted">${formattedDate}</small></i>
+//                 </div>
+//                 <h5 class="text-primary fw-bold mb-3">${news.titulo}</h5>
+//                 <p class="text-muted mb-3">${news.descripcion}</p>
+//             </div>
+//             <div class="card-footer bg-white text-end m-2">
+//                 <button class="btn btn-outline-primary btn-sm" onclick="showNewsDetail(${news.id})">
+//                     <i class="bi bi-arrow-right me-1"></i>Leer más
+//                 </button>
+//             </div>
+//         </div>
+//     `;
+
+//   return col;
+// }
+
 function createNewsCard(news) {
   const col = document.createElement("div");
-  col.className = "col-lg-4 col-md-6 col-sm-12 col-12";
+  col.className = "col-lg-4 col-md-6 col-sm-12 col-12 mb-4"; // Añadimos mb-4 para separar filas
 
   const formattedDate = formatDate(news.fecha);
+  const esPdf = news.archivoPdf || news.imagen.toLowerCase().endsWith('.pdf');
 
+  // f-flex y flex-column en el div principal hacen que los hijos se apilen verticalmente
+  // h-100 asegura que todas las cards de la misma fila tengan la misma altura
   col.innerHTML = `
-        <div class="h-100 bg-white rounded shadow overflow-hidden border p-1">
-            <img src="${news.imagen}" class="card-img-top" ${news.estiloCss ? news.estiloCss : "style=\"height: 250px; object-fit: cover;\""} alt="${news.titulo}">
-            <div class="card-body p-3">
-                <div class="text-end mb-3">
-                    <i class="bi bi-calendar-event text-primary me-2">
-                    <small class="text-muted">${formattedDate}</small></i>
+        <div class="card h-100 bg-white rounded shadow-sm overflow-hidden border d-flex flex-column">
+            <img src="${news.imagen}" class="card-img-top" ${news.estiloCss ? news.estiloCss : "style='height: 250px; object-fit: cover;'"} alt="${news.titulo}">
+            
+            <div class="card-body p-3 d-flex flex-column">
+                <div class="text-end mb-2">
+                    <i class="bi bi-calendar-event text-primary me-2"></i>
+                    <small class="text-muted">${formattedDate}</small>
                 </div>
                 <h5 class="text-primary fw-bold mb-3">${news.titulo}</h5>
                 <p class="text-muted mb-3">${news.descripcion}</p>
+                
+                <div class="mt-auto"></div>
             </div>
-            <div class="card-footer bg-white text-end m-2">
+
+            <div class="card-footer bg-white text-end border-0 pb-3 px-3">
                 <button class="btn btn-outline-primary btn-sm" onclick="showNewsDetail(${news.id})">
-                    <i class="bi bi-arrow-right me-1"></i>Leer más
+                    <i class="bi ${esPdf ? 'bi-file-pdf' : 'bi-arrow-right'} me-1"></i>
+                    ${esPdf ? 'Ver Documento' : 'Leer más'}
                 </button>
             </div>
         </div>
@@ -181,50 +217,99 @@ function createNewsCard(news) {
   return col;
 }
 
+// function showNewsDetail(newsId) {
+//   // Buscar la noticia por ID en el array global allNews
+//   const news = allNews.find(n => n.id === newsId);
+
+//   if (!news) {
+//     alert("No se encontró la noticia con ID: " + newsId);
+//     return;
+//   }
+
+//   // Obtener elementos del modal
+//   const modalTitle = document.getElementById("newsModalLabel");
+//   const modalBody = document.querySelector("#newsModal .modal-body");
+//   const modalFooter = document.querySelector("#newsModal .modal-footer");
+
+//   // Formatear la fecha
+//   const formattedDate = formatDate(news.fecha);
+
+//   // Actualizar contenido del modal
+//   modalTitle.textContent = news.titulo;
+
+//   // Crear contenido del modal
+//   modalBody.innerHTML = `
+//     <div class="mb-3">
+//       <img src="${news.imagen}" class="img-fluid rounded" ${news.estiloCss ? news.estiloCss.replace('style="', '').replace('"', '') : "style=\"width: 100%; height: auto;\""} alt="${news.titulo}">
+//     </div>
+//     <div class="mb-3">
+//       <small class="text-muted"><i class="bi bi-calendar-event me-1"></i> ${formattedDate}</small>
+//     </div>
+//     <!-- <p class="mb-3">${news.descripcion}</p> -->
+//     <div class="mb-3">
+//       <!-- <h5 class="text-primary fw-bold">Contenido:</h5> -->
+//       <p class="text-start text-muted mb-3">${formatContent(news.contenido)}</p>
+//     </div>
+//   `;
+
+//   // Actualizar el footer del modal
+//   modalFooter.innerHTML = `
+//     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+//     ${news.contenido.includes("https://") ?
+//       `<a href="${extractUrl(news.contenido)}" target="_blank" class="btn btn-primary">Más información</a>`
+//       : ''}
+//   `;
+
+//   // Inicializar y mostrar el modal
+//   const newsModal = new bootstrap.Modal(document.getElementById('newsModal'));
+//   newsModal.show();
+// }
+
 function showNewsDetail(newsId) {
-  // Buscar la noticia por ID en el array global allNews
   const news = allNews.find(n => n.id === newsId);
+  if (!news) return;
 
-  if (!news) {
-    alert("No se encontró la noticia con ID: " + newsId);
-    return;
-  }
-
-  // Obtener elementos del modal
   const modalTitle = document.getElementById("newsModalLabel");
   const modalBody = document.querySelector("#newsModal .modal-body");
   const modalFooter = document.querySelector("#newsModal .modal-footer");
 
-  // Formatear la fecha
-  const formattedDate = formatDate(news.fecha);
-
-  // Actualizar contenido del modal
   modalTitle.textContent = news.titulo;
+  const targetUrl = news.archivoPdf || news.imagen;
+  const esPdf = targetUrl.toLowerCase().endsWith('.pdf');
 
-  // Crear contenido del modal
-  modalBody.innerHTML = `
-    <div class="mb-3">
-      <img src="${news.imagen}" class="img-fluid rounded" ${news.estiloCss ? news.estiloCss.replace('style="', '').replace('"', '') : "style=\"width: 100%; height: auto;\""} alt="${news.titulo}">
-    </div>
-    <div class="mb-3">
-      <small class="text-muted"><i class="bi bi-calendar-event me-1"></i> ${formattedDate}</small>
-    </div>
-    <!-- <p class="mb-3">${news.descripcion}</p> -->
-    <div class="mb-3">
-      <!-- <h5 class="text-primary fw-bold">Contenido:</h5> -->
-      <p class="text-start text-muted mb-3">${formatContent(news.contenido)}</p>
-    </div>
-  `;
+  if (esPdf) {
+    // Si es PDF, usamos un visor embebido
+    modalBody.innerHTML = `
+      <div class="mb-3" style="height: 500px;">
+        <embed src="${targetUrl}" type="application/pdf" width="100%" height="100%" class="rounded border" />
+      </div>
+      <div class="mb-3">
+        <small class="text-muted"><i class="bi bi-calendar-event me-1"></i> ${formatDate(news.fecha)}</small>
+      </div>
+      <p class="text-muted">${news.descripcion}</p>
+    `;
+  } else {
+    // Si es imagen, mantenemos tu lógica original
+    modalBody.innerHTML = `
+      <div class="mb-3">
+        <img src="${news.imagen}" class="img-fluid rounded" style="width: 100%; height: auto;" alt="${news.titulo}">
+      </div>
+      <div class="mb-3">
+        <small class="text-muted"><i class="bi bi-calendar-event me-1"></i> ${formatDate(news.fecha)}</small>
+      </div>
+      <p class="text-muted">${formatContent(news.contenido)}</p>
+    `;
+  }
 
-  // Actualizar el footer del modal
+  // Footer dinámico con botón de descarga o link externo
   modalFooter.innerHTML = `
     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-    ${news.contenido.includes("https://") ?
-      `<a href="${extractUrl(news.contenido)}" target="_blank" class="btn btn-primary">Más información</a>`
-      : ''}
+    ${esPdf ?
+      `<a href="${targetUrl}" target="_blank" class="btn btn-primary"><i class="bi bi-download me-1"></i>Descargar PDF</a>` :
+      (news.contenido.includes("https://") ? `<a href="${extractUrl(news.contenido)}" target="_blank" class="btn btn-primary">Más información</a>` : '')
+    }
   `;
 
-  // Inicializar y mostrar el modal
   const newsModal = new bootstrap.Modal(document.getElementById('newsModal'));
   newsModal.show();
 }

@@ -25,5 +25,15 @@
     "imagen": "./images/novedades/flyer_carreras_con_uc_cuyo.jpeg",
     "contenido": "Para acceder a la admisión: https://forms.gle/izp89ZXhr3wDauDc9",
     "estiloCss": "style=\"height: 350px; object-fit: cover;\""
+  },
+  {
+    "id": 4,
+    "titulo": "Maestría en pensamiento social de la iglesia",
+    "descripcion": "Información detallada sobre la Maestría y la Diplomatura, podes descargar el PDF con toda la información en el botón debajo.",
+    "fecha": "2026-01-30",
+    "imagen": "./images/novedades/preview_maestria.jpg",
+    "archivoPdf": "./images/novedades/PDFFINAL2025.pdf",
+    "contenido": "Contacto: mpsi.filosofia@uccuyo.edu.ar",
+    "estiloCss": "style=\"height: 350px; object-fit: cover;\""
   }
 ]
