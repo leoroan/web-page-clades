@@ -35,5 +35,15 @@
     "archivoPdf": "./images/novedades/PDFFINAL2025.pdf",
     "contenido": "Contacto: mpsi.filosofia@uccuyo.edu.ar",
     "estiloCss": "style=\"height: 350px; object-fit: cover;\""
+  },
+  {
+    "id": 5,
+    "titulo": "Encuentro 2026 con el arzobispo de La Plata, mons. Carrara",
+    "descripcion": "El 6 de Febrero pasado, en el arzobispado de La Plata, se realizó el primer encuentro del nuestro Concejo con el Arzobispo Carrara. Hubo presentacion, un poco de historia, e intercambio de proyectos y muchas ganas de compartir.",
+    "fecha": "2026-02-06",
+    "imagen": "./images/novedades/encuentro_2026.jpg",
+    "archivoPdf": "./images/novedades/PDFFINAL2025.pdf",
+    "contenido": "",
+    "estiloCss": "style=\"height: 350px; object-fit: cover;\""
   }
 ]
