@@ -42,8 +42,16 @@
     "descripcion": "El 6 de Febrero pasado, en el arzobispado de La Plata, se realizó el primer encuentro del nuestro Concejo con el Arzobispo Carrara. Hubo presentacion, un poco de historia, e intercambio de proyectos y muchas ganas de compartir.",
     "fecha": "2026-02-06",
     "imagen": "./images/novedades/encuentro_2026.jpeg",
-    "archivoPdf": "./images/novedades/PDFFINAL2025.pdf",
     "contenido": "",
+    "estiloCss": "style=\"height: 350px; object-fit: cover;\""
+  },
+  {
+    "id": 6,
+    "titulo": "Presentacion y apertura Academica 2026",
+    "descripcion": "Te invitamos a la apertura de la Maestría en Pensamiento Social de la Iglesia y de la Diplomatura en Pensamiento Social de la Iglesia. Este jueves 12 de marzo a las 18hs. El evento es libre y gratuito, contará con la presencia de las autoridades de la Universidad Católica de Cuyo.",
+    "fecha": "2026-03-06",
+    "imagen": "./images/novedades/Presentacion y apertura Academica 2026.jpg",
+    "contenido": "El link de acceso al Meet es https://meet.google.com/awh-ffpo-ccd para el jueves 12 de marzo a las 18hs.",
     "estiloCss": "style=\"height: 350px; object-fit: cover;\""
   }
 ]
